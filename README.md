@@ -89,18 +89,49 @@ observations of history exist for a route (a few days of scans).
 - **Tune**: site → Settings for drop threshold, query budget, cooldown.
 - Scans run every 6 hours (edit the cron in `.github/workflows/scan.yml`).
 
-## Local development
+## Run it locally first (recommended before pushing anywhere)
+
+You can run the whole scanner on your own machine with no GitHub, no Pages, no
+public repo — just Telegram (and optionally Anthropic). Keys go in a local
+`.env` file that is git-ignored, so they never get committed or exposed.
 
 ```sh
-python3.14 -m venv .venv && .venv/bin/pip install -r requirements.txt pytest
-.venv/bin/python -m scanner --dry-run          # full run, alerts printed
-.venv/bin/python -m scanner --dry-run --module flyertalk
-.venv/bin/python -m pytest scanner/tests/
-.venv/bin/python -m http.server 8901           # then open localhost:8901/site/
+# 1. Set up the environment (one time)
+python3.14 -m venv .venv
+.venv/bin/pip install -r requirements.txt pytest
+
+# 2. Add your keys — edit .env, never paste them anywhere else
+cp .env.example .env
+open -e .env        # or: nano .env / code .env — fill in the three values
 ```
 
+`.env` needs your Telegram bot token + chat id (README steps 2). The Anthropic
+key is optional — leave it blank to use keyword matching instead of Claude.
+
+```sh
+# 3. First: a dry run — prints alerts to the terminal, sends nothing
+.venv/bin/python -m scanner --dry-run
+
+# 4. Real run — actually sends to your Telegram (proves the whole pipe works,
+#    including the "ran OK" heartbeat)
+.venv/bin/python -m scanner
+
+# Handy variants
+.venv/bin/python -m scanner --dry-run --module flyertalk   # one signal only
+.venv/bin/python -m pytest scanner/tests/                  # unit tests
+.venv/bin/python -m http.server 8901                       # dashboard: localhost:8901/site/
+```
+
+Edit watched routes in `data/watches.json` directly while local (the site's
+add/edit buttons need the GitHub connection). Both LON→KUL and LON→SIN are
+set up by default. Price-anomaly alerts need ~8 observations of history first;
+FlyerTalk and the heartbeat fire on the first real run.
+
+To keep running it locally on a schedule instead of GitHub, add a cron entry:
+`0 */6 * * * cd /path/to/flight-watcher && .venv/bin/python -m scanner`.
+
 `--dry-run` prints alerts instead of sending, but still writes history/state
-under `data/`.
+under `data/` so you can inspect what a run produced.
 
 ## Notes and limits
 

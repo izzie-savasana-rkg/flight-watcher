@@ -16,6 +16,28 @@ STATE_FILE = "state.json"
 STATUS_FILE = "status.json"
 
 
+def _load_dotenv() -> None:
+    """Load a local .env (KEY=VALUE per line) without any dependency.
+
+    Only used for local runs; on GitHub Actions the secrets are already in the
+    environment, and already-set vars are never overwritten. No-op if absent.
+    """
+    import os
+    from pathlib import Path
+
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key, value = key.strip(), value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
 def _sample_depart_dates(window_days: int, count: int, step: int) -> list[date]:
     """Evenly spaced departure dates across the window, jittered per run so
     the whole window gets covered over successive runs."""
@@ -162,6 +184,7 @@ def run(argv=None) -> int:
                         choices=["all", "prices", "flyertalk", "feeds", "fueldump"])
     args = parser.parse_args(argv)
 
+    _load_dotenv()
     settings = load_settings()
     watches = load_watches()
     scan_cfg = settings.get("scan", {})
