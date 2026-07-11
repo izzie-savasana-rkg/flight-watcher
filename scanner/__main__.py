@@ -7,7 +7,7 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 
 from . import history
-from .alerts import alert, alert_key
+from .alerts import alert, alert_key, send_telegram
 from .config import load_json, load_settings, load_watches, save_json
 from .detect import anomaly, fuel_dump
 from .sources import google_flights
@@ -102,6 +102,58 @@ def scan_prices(settings: dict, watches: list, dry_run: bool) -> dict:
     return stats
 
 
+def _heartbeat(status, failures, state, settings, dry_run) -> None:
+    """Send an 'all clear' confirmation so a quiet day is never ambiguous.
+
+    Throttled to once per min_interval_hours (default 20h ≈ once/day even on a
+    6-hourly cron), so it doesn't spam every run. Bypasses the alert-dedupe
+    cooldown entirely — it must fire on schedule regardless of deal alerts.
+    """
+    cfg = settings.get("heartbeat", {})
+    if not cfg.get("enabled", True):
+        return
+    interval = cfg.get("min_interval_hours", 20)
+    last = state.get("last_heartbeat")
+    if last:
+        try:
+            if datetime.now(timezone.utc) - datetime.fromisoformat(last) < \
+                    timedelta(hours=interval):
+                return
+        except ValueError:
+            pass
+
+    mods = status["modules"]
+    lines = []
+    p = mods.get("prices")
+    if isinstance(p, dict) and not p.get("error"):
+        lines.append(f"Prices: {p.get('observations', 0)} checked, "
+                     f"{p.get('alerts', 0)} alert(s), {p.get('errors', 0)} error(s)")
+    ft = mods.get("flyertalk")
+    if isinstance(ft, dict) and not ft.get("error"):
+        lines.append(f"FlyerTalk: {ft.get('new_threads', 0)} new, "
+                     f"{ft.get('alerts', 0)} deal(s)")
+    fe = mods.get("feeds")
+    if isinstance(fe, dict) and not fe.get("error"):
+        lines.append(f"Feeds: {fe.get('new_items', 0)} new, "
+                     f"{fe.get('alerts', 0)} matched")
+    fd = mods.get("fueldump")
+    if isinstance(fd, dict) and not fd.get("error"):
+        lines.append(f"Fuel-dump: {fd.get('probes', 0)} probed, "
+                     f"{fd.get('alerts', 0)} hit(s)")
+
+    zero_prices = (isinstance(p, dict) and p.get("observations", 0) == 0)
+    healthy = not failures and not zero_prices
+    header = ("✅ <b>Flight watcher ran OK</b>" if healthy
+              else "⚠️ <b>Flight watcher ran with issues</b>")
+    if failures:
+        lines.append(f"Failed modules: {', '.join(failures)}")
+    if zero_prices:
+        lines.append("No successful price queries this run.")
+    body = "\n".join(lines) or "Nothing to report."
+    send_telegram(f"{header}\n{body}", dry_run=dry_run)
+    state["last_heartbeat"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
 def run(argv=None) -> int:
     parser = argparse.ArgumentParser(prog="scanner")
     parser.add_argument("--dry-run", action="store_true",
@@ -164,6 +216,12 @@ def run(argv=None) -> int:
     status["finished_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     status["google_queries_used"] = google_flights.queries_used()
     status["run_count"] = state["run_count"]
+
+    # Confirmation heartbeat only on full scheduled runs, not single-module
+    # manual dispatches (which would otherwise burn the daily slot on partial data).
+    if args.module == "all":
+        _heartbeat(status, failures, state, settings, args.dry_run)
+
     save_json(STATUS_FILE, status)
     save_json(STATE_FILE, state)
     print(f"done: {status['modules']} (queries used: {status['google_queries_used']})")

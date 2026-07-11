@@ -261,6 +261,8 @@ async function renderSettings() {
   $("#set-drop").value = SETTINGS.anomaly?.drop_threshold_pct ?? 30;
   $("#set-budget").value = SETTINGS.scan?.max_google_queries_per_run ?? 60;
   $("#set-cooldown").value = SETTINGS.alerts?.cooldown_hours ?? 24;
+  $("#set-hb-enabled").checked = SETTINGS.heartbeat?.enabled ?? true;
+  $("#set-hb-interval").value = SETTINGS.heartbeat?.min_interval_hours ?? 20;
   const status = await readFile("data/status.json", {});
   $("#status-json").textContent = JSON.stringify(status, null, 2);
 }
@@ -279,9 +281,12 @@ $("#save-settings").addEventListener("click", async () => {
   SETTINGS.anomaly = SETTINGS.anomaly || {};
   SETTINGS.scan = SETTINGS.scan || {};
   SETTINGS.alerts = SETTINGS.alerts || {};
+  SETTINGS.heartbeat = SETTINGS.heartbeat || {};
   SETTINGS.anomaly.drop_threshold_pct = Number($("#set-drop").value);
   SETTINGS.scan.max_google_queries_per_run = Number($("#set-budget").value);
   SETTINGS.alerts.cooldown_hours = Number($("#set-cooldown").value);
+  SETTINGS.heartbeat.enabled = $("#set-hb-enabled").checked;
+  SETTINGS.heartbeat.min_interval_hours = Number($("#set-hb-interval").value);
   await saveSettings("site: update detection settings");
 });
 
