@@ -1,0 +1,60 @@
+{
+  "observations": [
+    {
+      "depart": "2026-07-31",
+      "return": null,
+      "price": 526.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:15:38+00:00"
+    },
+    {
+      "depart": "2026-08-19",
+      "return": null,
+      "price": 408.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:15:42+00:00"
+    },
+    {
+      "depart": "2026-09-09",
+      "return": null,
+      "price": 332.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:15:46+00:00"
+    },
+    {
+      "depart": "2026-09-29",
+      "return": null,
+      "price": 402.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:15:52+00:00"
+    },
+    {
+      "depart": "2026-10-15",
+      "return": null,
+      "price": 411.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:15:56+00:00"
+    },
+    {
+      "depart": "2026-11-07",
+      "return": null,
+      "price": 343.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:16:03+00:00"
+    },
+    {
+      "depart": "2026-11-28",
+      "return": null,
+      "price": 343.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:16:09+00:00"
+    },
+    {
+      "depart": "2026-12-12",
+      "return": null,
+      "price": 589.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-11T09:16:13+00:00"
+    }
+  ]
+}

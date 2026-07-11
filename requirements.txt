@@ -1,0 +1,4 @@
+fast-flights>=3.0
+feedparser>=6.0
+requests>=2.31
+anthropic>=0.60

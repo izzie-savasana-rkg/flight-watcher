@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flight watcher</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">✈️ <strong>Flight watcher</strong></div>
+  <nav>
+    <button class="tab active" data-view="dashboard">Dashboard</button>
+    <button class="tab" data-view="watches">Watches</button>
+    <button class="tab" data-view="strikes">Strikes</button>
+    <button class="tab" data-view="settings">Settings</button>
+  </nav>
+  <button id="scan-now" class="primary" title="Trigger a scan run on GitHub Actions">↻ Scan now</button>
+</header>
+
+<main>
+  <div id="banner" class="banner hidden"></div>
+
+  <section id="view-dashboard" class="view">
+    <div class="metrics" id="metrics"></div>
+    <h2>Watched routes</h2>
+    <div class="cards" id="route-cards"><p class="muted">Loading…</p></div>
+    <div class="two-col">
+      <div>
+        <h2>FlyerTalk stream <span class="muted small">(AI-decoded, all routes)</span></h2>
+        <div class="list" id="flyertalk-list"><p class="muted">Loading…</p></div>
+      </div>
+      <div>
+        <h2>Recent alerts</h2>
+        <div class="list" id="alerts-list"><p class="muted">Loading…</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-watches" class="view hidden">
+    <h2>Watches</h2>
+    <p class="muted">Routes the scanner polls for prices. Origin/destination take IATA airport or metro codes (LON, KUL, SIN, BKK…).</p>
+    <div id="watch-list"></div>
+    <h3>Add watch</h3>
+    <form id="watch-form" class="card form-grid">
+      <label>Origin <input name="origin" required maxlength="3" placeholder="LON" style="text-transform:uppercase"></label>
+      <label>Destination <input name="destination" required maxlength="3" placeholder="KUL" style="text-transform:uppercase"></label>
+      <label>Trip types
+        <select name="trip_types" multiple size="2">
+          <option value="return" selected>return</option>
+          <option value="oneway" selected>one-way</option>
+        </select>
+      </label>
+      <label>Cabin
+        <select name="cabin">
+          <option value="economy" selected>economy</option>
+          <option value="premium-economy">premium economy</option>
+          <option value="business">business</option>
+          <option value="first">first</option>
+        </select>
+      </label>
+      <label>Date window (days) <input name="date_window_days" type="number" value="180" min="30" max="330"></label>
+      <label>Stay nights (comma sep) <input name="stay_nights" value="7,14,21"></label>
+      <label>Max price (optional) <input name="max_price" type="number" placeholder="e.g. 350"></label>
+      <label>Alert keywords (comma sep, for feed/FlyerTalk matching) <input name="keywords" placeholder="kuala lumpur, malaysia"></label>
+      <button type="submit" class="primary">Save watch</button>
+    </form>
+  </section>
+
+  <section id="view-strikes" class="view hidden">
+    <h2>Fuel-dump strikes</h2>
+    <p class="muted">Candidate 3X segments. The scanner prices each watched return with the strike appended (multi-city) and alerts when the total drops by more than the minimum saving. Add candidates you learn from FlyerTalk threads.</p>
+    <label class="inline"><input type="checkbox" id="fd-enabled"> Enable fuel-dump probing</label>
+    <label class="inline">Min saving £ <input type="number" id="fd-min-saving" value="50" style="width:90px"></label>
+    <div id="strike-list"></div>
+    <h3>Add strike</h3>
+    <form id="strike-form" class="card form-grid">
+      <label>From <input name="from" required maxlength="3" placeholder="SIN" style="text-transform:uppercase"></label>
+      <label>To <input name="to" required maxlength="3" placeholder="KUL" style="text-transform:uppercase"></label>
+      <label>Days after return <input name="days_after_return" type="number" value="2" min="1" max="30"></label>
+      <label>Note <input name="note" placeholder="where you found it"></label>
+      <button type="submit" class="primary">Save strike</button>
+    </form>
+  </section>
+
+  <section id="view-settings" class="view hidden">
+    <h2>Settings</h2>
+    <div class="card">
+      <h3>Connection</h3>
+      <p class="muted">A fine-grained GitHub token (this repo only, Contents read/write + Actions read/write) lets this page edit watches and trigger scans. Stored only in this browser.</p>
+      <label>GitHub token <input id="gh-token" type="password" placeholder="github_pat_…"></label>
+      <label>Repository <input id="gh-repo" placeholder="username/flight-watcher"></label>
+      <button id="save-conn" class="primary">Save connection</button>
+      <span id="conn-status" class="muted small"></span>
+    </div>
+    <div class="card">
+      <h3>Detection</h3>
+      <label>Alert when fare is this % below median <input id="set-drop" type="number" min="10" max="80"></label>
+      <label>Google queries per run <input id="set-budget" type="number" min="10" max="200"></label>
+      <label>Alert cooldown (hours) <input id="set-cooldown" type="number" min="1" max="168"></label>
+      <button id="save-settings" class="primary">Save settings</button>
+    </div>
+    <div class="card">
+      <h3>Status</h3>
+      <pre id="status-json" class="small muted">Loading…</pre>
+    </div>
+  </section>
+</main>
+
+<script src="api.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "watches": [
+    {
+      "id": "lon-kul",
+      "origin": "LON",
+      "destination": "KUL",
+      "trip_types": ["return", "oneway"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-sin",
+      "origin": "LON",
+      "destination": "SIN",
+      "trip_types": ["return", "oneway"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    }
+  ]
+}

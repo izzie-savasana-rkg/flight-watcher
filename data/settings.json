@@ -1,0 +1,53 @@
+{
+  "currency": "GBP",
+  "anomaly": {
+    "drop_threshold_pct": 30,
+    "min_observations": 8,
+    "median_window_days": 45
+  },
+  "scan": {
+    "max_google_queries_per_run": 60,
+    "min_delay_seconds": 2,
+    "max_delay_seconds": 6,
+    "depart_step_days": 7
+  },
+  "alerts": {
+    "cooldown_hours": 24
+  },
+  "fuel_dump": {
+    "enabled": false,
+    "min_saving": 50,
+    "run_every_n_scans": 4,
+    "strikes": []
+  },
+  "flyertalk": {
+    "enabled": true,
+    "max_decodes_per_run": 20,
+    "model": "claude-haiku-4-5",
+    "feeds": [
+      {
+        "name": "Mileage Run Deals",
+        "url": "https://www.flyertalk.com/forum/external.php?type=rss2&forumids=372"
+      },
+      {
+        "name": "Premium Fare Deals",
+        "url": "https://www.flyertalk.com/forum/external.php?type=rss2&forumids=740"
+      }
+    ]
+  },
+  "deal_feeds": [
+    {
+      "name": "Secret Flying",
+      "url": "https://www.secretflying.com/feed/"
+    },
+    {
+      "name": "Fly4Free",
+      "url": "https://www.fly4free.com/feed/"
+    }
+  ],
+  "watch_keywords": {
+    "LON": ["london", "heathrow", "gatwick", "stansted", "lhr", "lgw", "stn", "ltn", "lcy"],
+    "KUL": ["kuala lumpur", "malaysia", "kul"],
+    "SIN": ["singapore", "sin", "changi"]
+  }
+}
