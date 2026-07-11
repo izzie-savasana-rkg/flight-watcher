@@ -277,13 +277,6 @@ document.querySelectorAll(".tab").forEach((tab) => tab.onclick = () => {
     v.classList.toggle("hidden", v.id !== `view-${tab.dataset.view}`));
 });
 
-$("#scan-now").addEventListener("click", async () => {
-  try {
-    await dispatchScan();
-    banner("Scan triggered — results land here in a few minutes.", "ok");
-  } catch (err) { banner(err.message, "error"); }
-});
-
 async function boot() {
   if (!GH.repo) {
     banner("Set your repository (username/flight-watcher) in Settings.", "");

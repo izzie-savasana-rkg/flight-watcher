@@ -58,13 +58,3 @@ async function writeFile(path, obj, message) {
   GH.shas[path] = body.content.sha;
 }
 
-async function dispatchScan(module = "all") {
-  if (!GH.token) throw new Error("Add a GitHub token in Settings first.");
-  const res = await fetch(
-    `https://api.github.com/repos/${GH.repo}/actions/workflows/scan.yml/dispatches`, {
-      method: "POST",
-      headers: ghHeaders(false),
-      body: JSON.stringify({ ref: "main", inputs: { module } }),
-    });
-  if (res.status !== 204) throw new Error(`Dispatch failed (${res.status})`);
-}
