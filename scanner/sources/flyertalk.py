@@ -1,5 +1,8 @@
 """Watch FlyerTalk forum RSS feeds and decode new threads with Claude."""
 
+import calendar
+from datetime import datetime, timezone
+
 import requests
 import feedparser
 
@@ -20,6 +23,15 @@ def _fetch_feed(url: str):
 
 def _thread_id(entry) -> str:
     return entry.get("id") or entry.get("link") or entry.get("title", "")
+
+
+def _posted_at(entry) -> str | None:
+    """When the thread was posted on FlyerTalk (from the RSS entry)."""
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if parsed:
+        return datetime.fromtimestamp(
+            calendar.timegm(parsed), tz=timezone.utc).isoformat(timespec="seconds")
+    return None
 
 
 def scan(settings: dict, watches: list, dry_run: bool) -> dict:
@@ -58,6 +70,7 @@ def scan(settings: dict, watches: list, dry_run: bool) -> dict:
             "forum": forum,
             "title": title,
             "link": link,
+            "posted_at": _posted_at(entry),
             "decoded": decoded,
             "starred": False,
         }

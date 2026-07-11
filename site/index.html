@@ -13,7 +13,6 @@
   <nav>
     <button class="tab active" data-view="dashboard">Dashboard</button>
     <button class="tab" data-view="watches">Watches</button>
-    <button class="tab" data-view="strikes">Strikes</button>
     <button class="tab" data-view="settings">Settings</button>
   </nav>
   <button id="scan-now" class="primary" title="Trigger a scan run on GitHub Actions">↻ Scan now</button>
@@ -65,22 +64,6 @@
       <label>Max price (optional) <input name="max_price" type="number" placeholder="e.g. 350"></label>
       <label>Alert keywords (comma sep, for feed/FlyerTalk matching) <input name="keywords" placeholder="kuala lumpur, malaysia"></label>
       <button type="submit" class="primary">Save watch</button>
-    </form>
-  </section>
-
-  <section id="view-strikes" class="view hidden">
-    <h2>Fuel-dump strikes</h2>
-    <p class="muted">Candidate 3X segments. The scanner prices each watched return with the strike appended (multi-city) and alerts when the total drops by more than the minimum saving. Add candidates you learn from FlyerTalk threads.</p>
-    <label class="inline"><input type="checkbox" id="fd-enabled"> Enable fuel-dump probing</label>
-    <label class="inline">Min saving £ <input type="number" id="fd-min-saving" value="50" style="width:90px"></label>
-    <div id="strike-list"></div>
-    <h3>Add strike</h3>
-    <form id="strike-form" class="card form-grid">
-      <label>From <input name="from" required maxlength="3" placeholder="SIN" style="text-transform:uppercase"></label>
-      <label>To <input name="to" required maxlength="3" placeholder="KUL" style="text-transform:uppercase"></label>
-      <label>Days after return <input name="days_after_return" type="number" value="2" min="1" max="30"></label>
-      <label>Note <input name="note" placeholder="where you found it"></label>
-      <button type="submit" class="primary">Save strike</button>
     </form>
   </section>
 

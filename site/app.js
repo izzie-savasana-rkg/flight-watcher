@@ -121,24 +121,47 @@ async function renderDashboard() {
   const threads = Object.entries(ft.threads || {}).reverse().slice(0, 12);
   $("#flyertalk-list").innerHTML = threads.length ? threads.map(([, t]) => {
     const d = t.decoded || {};
-    const routes = (d.routes || []).join(", ") || "route unclear";
-    const label = d.is_deal ? `${d.deal_type || "deal"} · ${routes}` : "not a deal";
+    const routes = (d.routes || []).join(", ");
+    const dealType = d.is_deal ? (d.deal_type || "deal").replace(/_/g, " ") : "not a deal";
+    const label = routes ? `${dealType} · ${routes}` : dealType;
+    // decoded extras (populated when Claude decoding is on): price / cabin / urgency
+    const bits = [];
+    if (d.approx_price) bits.push(d.approx_price);
+    if (d.cabin) bits.push(d.cabin);
+    if (d.urgency && d.urgency !== "unknown") bits.push(d.urgency.replace(/_/g, " "));
+    const chips = bits.length ? `<span class="chips">${esc(bits.join(" · "))}</span>` : "";
+    const when = t.posted_at ? ago(t.posted_at) : "";
     return `<div class="item">
       <div class="head">${t.starred ? "⭐ " : ""}${esc(label)}
-        <span class="when">${esc(t.forum || "")}</span></div>
-      <div class="body">${esc(d.summary || t.title)}</div>
-      <a href="${esc(t.link)}" target="_blank" rel="noopener">Open thread</a>
+        <span class="when">${esc(t.forum || "")}${when ? " · " + when : ""}</span></div>
+      <div class="body">${esc(d.summary || t.title)}${chips ? " " + chips : ""}</div>
+      <a href="${esc(t.link)}" target="_blank" rel="noopener">Open thread ↗</a>
     </div>`;
   }).join("") : `<div class="item muted">Nothing decoded yet.</div>`;
 
   const log = (alerts.log || []).slice(-12).reverse();
   const icons = { anomaly: "📉", flyertalk: "🗣", fuel_dump: "⛽", feed: "📰", health: "🚨" };
-  $("#alerts-list").innerHTML = log.length ? log.map((a) => `
-    <div class="item">
+  const linkLabel = {
+    anomaly: "Open in Google Flights", fuel_dump: "Open in Google Flights",
+    flyertalk: "Open thread", feed: "Open deal",
+  };
+  $("#alerts-list").innerHTML = log.length ? log.map((a) => {
+    const plain = a.text.replace(/<[^>]+>/g, "");
+    const urlMatch = a.text.match(/https?:\/\/\S+/);
+    const url = urlMatch ? urlMatch[0]
+      : (a.meta && (a.meta.thread || a.meta.url)) || "";
+    const body = plain.split("\n").filter((l) => l.trim() && !/^https?:/.test(l.trim()))
+      .join(" · ");
+    const link = url
+      ? `<a href="${esc(url)}" target="_blank" rel="noopener">${linkLabel[a.kind] || "Open"} ↗</a>`
+      : "";
+    return `<div class="item">
       <div class="head">${icons[a.kind] || ""} ${esc(a.kind)}
         <span class="when">${ago(a.at)}</span></div>
-      <div class="body">${esc((a.text.replace(/<[^>]+>/g, "").split("\n").filter((l) => !l.includes("http"))[1] || a.text.replace(/<[^>]+>/g, "").split("\n")[0]))}</div>
-    </div>`).join("") : `<div class="item muted">No alerts yet.</div>`;
+      <div class="body">${esc(body)}</div>
+      ${link}
+    </div>`;
+  }).join("") : `<div class="item muted">No alerts yet.</div>`;
 }
 
 /* ---------- watches ---------- */
@@ -200,50 +223,6 @@ $("#watch-form").addEventListener("submit", async (e) => {
   }
   await saveWatches();
   e.target.reset();
-});
-
-/* ---------- strikes ---------- */
-
-function renderStrikes() {
-  const fd = SETTINGS.fuel_dump || { strikes: [] };
-  $("#fd-enabled").checked = !!fd.enabled;
-  $("#fd-min-saving").value = fd.min_saving ?? 50;
-  $("#strike-list").innerHTML = (fd.strikes || []).map((s, i) => `
-    <div class="row-card">
-      <div class="grow"><strong>${esc(s.from)} → ${esc(s.to)}</strong>
-        <span class="muted small">+${s.days_after_return || 2}d after return${s.note ? " · " + esc(s.note) : ""}</span></div>
-      <button class="ghost" data-sdel="${i}">Delete</button>
-    </div>`).join("") || `<p class="muted">No candidate strikes yet.</p>`;
-  $("#strike-list").querySelectorAll("[data-sdel]").forEach((b) => b.onclick = async () => {
-    SETTINGS.fuel_dump.strikes.splice(Number(b.dataset.sdel), 1);
-    await saveSettings("site: remove strike");
-    renderStrikes();
-  });
-}
-
-$("#strike-form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const f = new FormData(e.target);
-  SETTINGS.fuel_dump = SETTINGS.fuel_dump || { enabled: false, min_saving: 50, run_every_n_scans: 4, strikes: [] };
-  SETTINGS.fuel_dump.strikes.push({
-    from: f.get("from").toUpperCase().trim(),
-    to: f.get("to").toUpperCase().trim(),
-    days_after_return: Number(f.get("days_after_return")) || 2,
-    note: f.get("note") || "",
-  });
-  await saveSettings("site: add strike");
-  renderStrikes();
-  e.target.reset();
-});
-
-$("#fd-enabled").addEventListener("change", async (e) => {
-  SETTINGS.fuel_dump = SETTINGS.fuel_dump || { strikes: [] };
-  SETTINGS.fuel_dump.enabled = e.target.checked;
-  await saveSettings("site: toggle fuel dump");
-});
-$("#fd-min-saving").addEventListener("change", async (e) => {
-  SETTINGS.fuel_dump.min_saving = Number(e.target.value) || 50;
-  await saveSettings("site: fuel dump min saving");
 });
 
 async function saveSettings(msg) {
@@ -313,7 +292,6 @@ async function boot() {
   WATCHES = await readFile("data/watches.json", { watches: [] });
   renderDashboard();
   renderWatches();
-  renderStrikes();
   renderSettings();
 }
 
