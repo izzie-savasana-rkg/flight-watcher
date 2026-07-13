@@ -169,16 +169,22 @@ async function renderDashboard() {
 /* ---------- watches ---------- */
 
 function renderWatches() {
+  const canEdit = !!GH.token;
+  // Show the add form only with a token; show the read-only note without one.
+  $("#watch-editor").classList.toggle("hidden", !canEdit);
+  $("#watch-readonly").classList.toggle("hidden", canEdit);
+
   const el = $("#watch-list");
   el.innerHTML = WATCHES.watches.map((w, i) => `
     <div class="row-card">
       <div class="grow"><strong>${esc(w.origin)} → ${esc(w.destination)}</strong>
         <span class="muted small">${(w.trip_types || []).join(", ")} · ${esc(w.cabin || "economy")}
-        · ${w.date_window_days || 180}d window${w.max_price ? " · cap £" + w.max_price : ""}</span></div>
-      <label class="inline small"><input type="checkbox" data-toggle="${i}" ${w.enabled !== false ? "checked" : ""}> enabled</label>
-      <button class="ghost" data-del="${i}">Delete</button>
+        · ${w.date_window_days || 180}d window${w.max_price ? " · cap £" + w.max_price : ""}${w.enabled === false ? " · disabled" : ""}</span></div>
+      ${canEdit ? `<label class="inline small"><input type="checkbox" data-toggle="${i}" ${w.enabled !== false ? "checked" : ""}> enabled</label>
+      <button class="ghost" data-del="${i}">Delete</button>` : ""}
     </div>`).join("") || `<p class="muted">No watches yet.</p>`;
 
+  if (!canEdit) return;
   el.querySelectorAll("[data-del]").forEach((b) => b.onclick = async () => {
     if (!confirm("Delete this watch? Its price history file stays in the repo.")) return;
     WATCHES.watches.splice(Number(b.dataset.del), 1);

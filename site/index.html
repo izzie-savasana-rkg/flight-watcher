@@ -40,6 +40,7 @@
     <h2>Watches</h2>
     <p class="muted">Routes the scanner polls for prices. Origin/destination take IATA airport or metro codes (LON, KUL, SIN, BKK…).</p>
     <div id="watch-list"></div>
+    <div id="watch-editor">
     <h3>Add watch</h3>
     <form id="watch-form" class="card form-grid">
       <label>Origin <input name="origin" required maxlength="3" placeholder="LON" style="text-transform:uppercase"></label>
@@ -64,6 +65,9 @@
       <label>Alert keywords (comma sep, for feed/FlyerTalk matching) <input name="keywords" placeholder="kuala lumpur, malaysia"></label>
       <button type="submit" class="primary">Save watch</button>
     </form>
+    </div>
+    <p id="watch-readonly" class="muted hidden">Read-only view. To add or edit
+      watches, open this dashboard with a GitHub token connected in Settings.</p>
   </section>
 
   <section id="view-settings" class="view hidden">
