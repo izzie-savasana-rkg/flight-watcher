@@ -1,0 +1,18 @@
+{
+  "observations": [
+    {
+      "depart": "2026-07-27",
+      "return": "2026-08-03",
+      "price": 2513.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-13T20:35:44+00:00"
+    },
+    {
+      "depart": "2026-10-24",
+      "return": "2026-10-31",
+      "price": 2513.0,
+      "currency": "GBP",
+      "observed_at": "2026-07-13T20:35:50+00:00"
+    }
+  ]
+}

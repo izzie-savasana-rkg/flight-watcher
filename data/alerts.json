@@ -1,1 +1,19 @@
-{"sent": {}, "log": []}
+{
+  "sent": {
+    "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00"
+  },
+  "log": [
+    {
+      "at": "2026-07-13T20:38:08+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Non-stop flights from London to Phuket, Thailand 😎 from £457\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-phuket-p457/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
+      }
+    }
+  ]
+}
