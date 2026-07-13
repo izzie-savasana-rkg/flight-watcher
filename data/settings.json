@@ -52,6 +52,14 @@
   "watch_keywords": {
     "LON": ["london", "heathrow", "gatwick", "stansted", "lhr", "lgw", "stn", "ltn", "lcy"],
     "KUL": ["kuala lumpur", "malaysia", "kul"],
-    "SIN": ["singapore", "sin", "changi"]
+    "SIN": ["singapore", "sin", "changi"],
+    "CPH": ["copenhagen", "denmark", "cph"],
+    "AMS": ["amsterdam", "netherlands", "holland", "schiphol", "ams"],
+    "FRA": ["frankfurt", "germany", "fra"],
+    "BKK": ["bangkok", "thailand", "bkk", "dmk", "suvarnabhumi", "don mueang"],
+    "CGK": ["jakarta", "indonesia", "cgk", "soekarno"],
+    "DPS": ["bali", "denpasar", "dps"],
+    "SGN": ["ho chi minh", "saigon", "vietnam", "sgn"],
+    "MNL": ["manila", "philippines", "mnl"]
   }
 }

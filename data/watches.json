@@ -12,6 +12,17 @@
       "enabled": true
     },
     {
+      "id": "kul-lon",
+      "origin": "KUL",
+      "destination": "LON",
+      "trip_types": ["return", "oneway"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
       "id": "lon-sin",
       "origin": "LON",
       "destination": "SIN",
@@ -19,6 +30,160 @@
       "cabin": "economy",
       "date_window_days": 180,
       "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "sin-lon",
+      "origin": "SIN",
+      "destination": "LON",
+      "trip_types": ["return", "oneway"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "cph-kul",
+      "origin": "CPH",
+      "destination": "KUL",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "cph-sin",
+      "origin": "CPH",
+      "destination": "SIN",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "ams-kul",
+      "origin": "AMS",
+      "destination": "KUL",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "ams-sin",
+      "origin": "AMS",
+      "destination": "SIN",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "fra-kul",
+      "origin": "FRA",
+      "destination": "KUL",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "fra-sin",
+      "origin": "FRA",
+      "destination": "SIN",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-bkk",
+      "origin": "LON",
+      "destination": "BKK",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "bkk-lon",
+      "origin": "BKK",
+      "destination": "LON",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-cgk",
+      "origin": "LON",
+      "destination": "CGK",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "cgk-lon",
+      "origin": "CGK",
+      "destination": "LON",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [7, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-dps",
+      "origin": "LON",
+      "destination": "DPS",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [10, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-sgn",
+      "origin": "LON",
+      "destination": "SGN",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [10, 14, 21],
+      "max_price": null,
+      "enabled": true
+    },
+    {
+      "id": "lon-mnl",
+      "origin": "LON",
+      "destination": "MNL",
+      "trip_types": ["return"],
+      "cabin": "economy",
+      "date_window_days": 180,
+      "stay_nights": [10, 14, 21],
       "max_price": null,
       "enabled": true
     }
