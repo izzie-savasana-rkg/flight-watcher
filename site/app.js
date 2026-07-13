@@ -118,7 +118,9 @@ async function renderDashboard() {
     <div class="metric"><div class="label">Last scan</div>
       <div class="value">${ago(status.finished_at)}</div></div>`;
 
-  const threads = Object.entries(ft.threads || {}).reverse().slice(0, 12);
+  const threads = Object.entries(ft.threads || {})
+    .sort((a, b) => new Date(b[1].posted_at || 0) - new Date(a[1].posted_at || 0))
+    .slice(0, 12);
   $("#flyertalk-list").innerHTML = threads.length ? threads.map(([, t]) => {
     const d = t.decoded || {};
     const routes = (d.routes || []).join(", ");
