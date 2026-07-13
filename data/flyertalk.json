@@ -7,14 +7,19 @@
       "posted_at": "2026-07-11T00:36:43+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "MNL-LHR rtn £1650 Xmas/NY Business",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "MNL-LHR"
+        ],
+        "regions": [
+          "Asia",
+          "Europe"
+        ],
+        "cabin": "J",
+        "approx_price": "£1650",
+        "urgency": "days",
+        "summary": "Air China is offering round-trip business class fares from Manila to London around £1650 for Christmas and New Year travel (Dec 18 - Jan 3), bookable on their website.",
+        "decoder": "claude"
       },
       "starred": true
     },
@@ -25,14 +30,19 @@
       "posted_at": "2026-07-10T22:54:08+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "AA:  SEA-DFW-TYO r/t $4300 First",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "SEA-DFW-TYO"
+        ],
+        "regions": [
+          "US",
+          "Asia"
+        ],
+        "cabin": "First",
+        "approx_price": "$4300",
+        "urgency": "days",
+        "summary": "American Airlines First Class round-trip Seattle to Tokyo via Dallas Fort Worth for approximately $4300, available from mid-July through mid-September.",
+        "decoder": "claude"
       },
       "starred": false
     },
@@ -43,14 +53,20 @@
       "posted_at": "2026-07-10T22:13:02+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "China Airlines | LHR - SYD | Business r/t | £4200",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "LHR-SYD",
+          "LHR-AMS"
+        ],
+        "regions": [
+          "Europe",
+          "Oceania"
+        ],
+        "cabin": "business",
+        "approx_price": "£4200 r/t, £2600 o/w",
+        "urgency": "days",
+        "summary": "China Airlines is offering business class return fares from London to Sydney for £4,200, with September-November availability, also available ex-Amsterdam at the same price.",
+        "decoder": "claude"
       },
       "starred": true
     },
@@ -61,34 +77,21 @@
       "posted_at": "2026-07-09T14:35:42+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "Phuket -> Paris on Etihad a321 and a380 == $1730 (Round Trip)",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "BKK-CDG"
+        ],
+        "regions": [
+          "SEA",
+          "Europe"
+        ],
+        "cabin": "economy",
+        "approx_price": "$1730 round trip",
+        "urgency": "days",
+        "summary": "Round-trip economy fares from Bangkok to Paris on Etihad A321 and A380 aircraft for approximately $1730, departing July 9 and returning September 23.",
+        "decoder": "claude"
       },
-      "starred": false
-    },
-    "https://www.flyertalk.com/forum/premium-fare-deals/2220446-hot-ram-lax-valencia-1376-bus.html": {
-      "forum": "Premium Fare Deals",
-      "title": "HOT! - RAM: LAX to Valencia from $1376 (Bus)",
-      "link": "https://www.flyertalk.com/forum/premium-fare-deals/2220446-hot-ram-lax-valencia-1376-bus.html",
-      "posted_at": "2026-07-09T14:16:31+00:00",
-      "decoded": {
-        "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "HOT! - RAM: LAX to Valencia from $1376 (Bus)",
-        "decoder": "keywords"
-      },
-      "starred": false
+      "starred": true
     },
     "https://www.flyertalk.com/forum/premium-fare-deals/2220343-ca-cgk-lhr-one-way-limited-dates-760-a.html": {
       "forum": "Premium Fare Deals",
@@ -97,14 +100,19 @@
       "posted_at": "2026-07-07T13:33:07+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
+        "deal_type": "sale",
+        "routes": [
+          "CGK-LHR"
+        ],
+        "regions": [
+          "Asia",
+          "Europe"
+        ],
         "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "CA: CGK - LHR (one-way) (limited dates) £760",
-        "decoder": "keywords"
+        "approx_price": "£760",
+        "urgency": "days",
+        "summary": "Garuda Indonesia one-way economy fare from Jakarta to London Heathrow at £760 with limited availability on 12 October, routing via Beijing.",
+        "decoder": "claude"
       },
       "starred": true
     },
@@ -115,16 +123,23 @@
       "posted_at": "2026-07-05T20:33:06+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "CA: CPH/ARN  to CA Asia destinations, Business  from around €1.2k return",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "ARN-HKG",
+          "ARN-BKK",
+          "ARN-SIN"
+        ],
+        "regions": [
+          "Europe",
+          "Asia"
+        ],
+        "cabin": "J",
+        "approx_price": "€1,200",
+        "urgency": "ongoing",
+        "summary": "Air China is offering Business Class fares from Stockholm (ARN) to Asian destinations like Hong Kong, Bangkok, and Singapore for approximately €1,200 return via Beijing.",
+        "decoder": "claude"
       },
-      "starred": false
+      "starred": true
     },
     "https://www.flyertalk.com/forum/premium-fare-deals/2220278-delta-one-msp-hnd-rt-3750-july-sept-weekdays.html": {
       "forum": "Premium Fare Deals",
@@ -133,14 +148,19 @@
       "posted_at": "2026-07-05T18:10:58+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "Delta One MSP-HND RT $3750 July-Sept weekdays",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "MSP-HND"
+        ],
+        "regions": [
+          "US",
+          "Japan"
+        ],
+        "cabin": "J",
+        "approx_price": "$3750",
+        "urgency": "days",
+        "summary": "Delta One business class roundtrip from Minneapolis to Tokyo available for $3750 in July-September on weekdays, a notable premium cabin discount versus typical pricing.",
+        "decoder": "claude"
       },
       "starred": false
     },
@@ -151,14 +171,19 @@
       "posted_at": "2026-07-03T09:29:39+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "Etihad Business Class Value fare: DUB to MLE from €1,638 return",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "DUB-MLE"
+        ],
+        "regions": [
+          "Europe",
+          "South Asia"
+        ],
+        "cabin": "J",
+        "approx_price": "€1,638 return",
+        "urgency": "ongoing",
+        "summary": "Etihad Airways is offering business class fares from Dublin to Malé, Maldives for approximately €1,638 return on selected 2026 dates.",
+        "decoder": "claude"
       },
       "starred": false
     },
@@ -169,14 +194,21 @@
       "posted_at": "2026-07-02T12:06:34+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "VS Business MAN-ATL / MBJ-LHR Z class £1300 ish",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "MAN-ATL",
+          "MBJ-LHR"
+        ],
+        "regions": [
+          "Europe",
+          "Caribbean",
+          "US"
+        ],
+        "cabin": "J",
+        "approx_price": "£1300",
+        "urgency": "ongoing",
+        "summary": "Virgin America business class fares from Manchester to Atlanta and Montego Bay to London around £1300 in Z class.",
+        "decoder": "claude"
       },
       "starred": true
     },
@@ -187,16 +219,21 @@
       "posted_at": "2026-06-26T12:37:51+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
-        "urgency": "unknown",
-        "summary": "Gf+wy: Cai - cgk - 1270 eur",
-        "decoder": "keywords"
+        "deal_type": "sale",
+        "routes": [
+          "CAI-CGK"
+        ],
+        "regions": [
+          "Middle East",
+          "SEA"
+        ],
+        "cabin": "W",
+        "approx_price": "1270 EUR",
+        "urgency": "ongoing",
+        "summary": "Premium economy round-trip from Cairo to Jakarta via Gulf Air and Oman Air for 1270 EUR, bookable on Gulf Air's website with option to make refundable for 200 EUR more.",
+        "decoder": "claude"
       },
-      "starred": false
+      "starred": true
     },
     "https://www.flyertalk.com/forum/premium-fare-deals/2219895-lis-mex-am-business-r-t-c1500.html": {
       "forum": "Premium Fare Deals",
@@ -205,14 +242,20 @@
       "posted_at": "2026-06-25T21:31:02+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
+        "deal_type": "sale",
+        "routes": [
+          "LIS-MEX",
+          "MAD-MTY"
+        ],
+        "regions": [
+          "Europe",
+          "Mexico"
+        ],
+        "cabin": "J",
+        "approx_price": "€1500",
         "urgency": "unknown",
-        "summary": "LIS-MEX AM Business r/t €1500",
-        "decoder": "keywords"
+        "summary": "AeroMexico business-class round-trip from Lisbon to Mexico City via Madrid, with return via Monterrey, available at €1500 through online travel agents.",
+        "decoder": "claude"
       },
       "starred": false
     },
@@ -223,16 +266,21 @@
       "posted_at": "2026-06-25T20:30:28+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
+        "deal_type": "sale",
+        "routes": [
+          "TUN-DPS"
+        ],
+        "regions": [
+          "Africa",
+          "SEA"
+        ],
+        "cabin": "J",
+        "approx_price": "€1,273",
         "urgency": "unknown",
-        "summary": "Etihad Business Class: Tunis–Bali from TND 4,298 / approximately €1,275 return",
-        "decoder": "keywords"
+        "summary": "Etihad business-class round-trip from Tunis to Bali for approximately €1,273 via Abu Dhabi.",
+        "decoder": "claude"
       },
-      "starred": false
+      "starred": true
     },
     "https://www.flyertalk.com/forum/premium-fare-deals/2219864-lx-cai-nrt-business-1500-eur.html": {
       "forum": "Premium Fare Deals",
@@ -241,14 +289,19 @@
       "posted_at": "2026-06-25T09:18:30+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
+        "deal_type": "sale",
+        "routes": [
+          "CAI-NRT"
+        ],
+        "regions": [
+          "Africa",
+          "East Asia"
+        ],
+        "cabin": "J",
+        "approx_price": "1500 EUR",
         "urgency": "unknown",
-        "summary": "LX: CAI-NRT - Business - 1500 EUR",
-        "decoder": "keywords"
+        "summary": "SWISS and Aegean business class fare from Cairo to Tokyo at 1500 EUR, competitive alternative to Ethiopian routing.",
+        "decoder": "claude"
       },
       "starred": false
     },
@@ -259,14 +312,45 @@
       "posted_at": "2026-06-22T16:52:52+00:00",
       "decoded": {
         "is_deal": true,
-        "deal_type": "other",
-        "routes": [],
-        "regions": [],
-        "cabin": null,
-        "approx_price": null,
+        "deal_type": "sale",
+        "routes": [
+          "LAX-TYO"
+        ],
+        "regions": [
+          "US",
+          "Japan"
+        ],
+        "cabin": "J",
+        "approx_price": "$3,800",
         "urgency": "unknown",
-        "summary": "Various: LAX-TYO ~$3,800 business : JL via Chase ~216k UR",
-        "decoder": "keywords"
+        "summary": "Japan Airlines business-class flights from Los Angeles to Tokyo available for approximately $3,800 or 216,000 Chase Ultimate Rewards points via Chase Points Boost promotion.",
+        "decoder": "claude"
+      },
+      "starred": false
+    },
+    "https://www.flyertalk.com/forum/premium-fare-deals/2219669-avianca-business-class-paris-o-orlando-bogot-o-paris-c1-809-a.html": {
+      "forum": "Premium Fare Deals",
+      "title": "Avianca Business Class: Paris – Orlando + Bogotá – Paris from €1,809",
+      "link": "https://www.flyertalk.com/forum/premium-fare-deals/2219669-avianca-business-class-paris-o-orlando-bogot-o-paris-c1-809-a.html",
+      "posted_at": "2026-06-20T15:51:51+00:00",
+      "decoded": {
+        "is_deal": true,
+        "deal_type": "sale",
+        "routes": [
+          "CDG-MCO",
+          "MCO-BOG",
+          "BOG-CDG"
+        ],
+        "regions": [
+          "Europe",
+          "North America",
+          "South America"
+        ],
+        "cabin": "J",
+        "approx_price": "€1,809",
+        "urgency": "unknown",
+        "summary": "Avianca business class round-trip fare from Paris to Orlando via Bogotá and return, priced at €1,809, found on Skyscanner and Trip.com.",
+        "decoder": "claude"
       },
       "starred": false
     }

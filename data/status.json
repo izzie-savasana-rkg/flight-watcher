@@ -1,14 +1,1 @@
-{
-  "started_at": "2026-07-11T15:48:47+00:00",
-  "modules": {
-    "flyertalk": {
-      "new_threads": 15,
-      "decoded": 15,
-      "alerts": 0,
-      "feed_errors": 0
-    }
-  },
-  "finished_at": "2026-07-11T15:48:53+00:00",
-  "google_queries_used": 0,
-  "run_count": 3
-}
+{}
