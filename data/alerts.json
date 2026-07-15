@@ -1,6 +1,7 @@
 {
   "sent": {
-    "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00"
+    "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00",
+    "edeefe39e067280c3e0e": "2026-07-15T16:56:56+00:00"
   },
   "log": [
     {
@@ -12,6 +13,18 @@
         "watches": [
           "lon-bkk",
           "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-07-15T16:56:56+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Singapore Airlines direct flights from London to Singapore for £544\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-london-to-singapore-p544/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
         ]
       }
     }
