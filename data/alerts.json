@@ -2,7 +2,9 @@
   "sent": {
     "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00",
     "edeefe39e067280c3e0e": "2026-07-15T16:56:56+00:00",
-    "319f744601ba80ccb39e": "2026-07-16T07:52:27+00:00"
+    "319f744601ba80ccb39e": "2026-07-16T07:52:27+00:00",
+    "8b6608cac4c46acdeaff": "2026-07-16T16:52:15+00:00",
+    "64e8fc76190c8ec1d307": "2026-07-16T16:54:51+00:00"
   },
   "log": [
     {
@@ -37,6 +39,27 @@
         "feed": "Fly4Free",
         "watches": [
           "fra-sin"
+        ]
+      }
+    },
+    {
+      "at": "2026-07-16T16:52:15+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1933 — 36.1% below normal (median £3026)\nDates: 2026-08-05 → 2026-08-12\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDgtMDVqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTA4LTEyagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1933.0
+      }
+    },
+    {
+      "at": "2026-07-16T16:54:51+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Singapore Airlines flights from Amsterdam to Vietnam for €562\nhttps://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-ho-chi-minh/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "ams-sin"
         ]
       }
     }
