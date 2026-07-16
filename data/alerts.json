@@ -1,7 +1,8 @@
 {
   "sent": {
     "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00",
-    "edeefe39e067280c3e0e": "2026-07-15T16:56:56+00:00"
+    "edeefe39e067280c3e0e": "2026-07-15T16:56:56+00:00",
+    "319f744601ba80ccb39e": "2026-07-16T07:52:27+00:00"
   },
   "log": [
     {
@@ -25,6 +26,17 @@
         "watches": [
           "lon-sin",
           "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-07-16T07:52:27+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: PRICE DROP 💥 Full-service Singapore Airlines direct flights from Frankfurt to New York 🗽 for €414\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-frankfurt-to-new-york-e414/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
         ]
       }
     }
