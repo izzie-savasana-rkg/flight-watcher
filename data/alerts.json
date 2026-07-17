@@ -8,7 +8,8 @@
     "5e0e7107415a37e4d7c3": "2026-07-16T21:51:40+00:00",
     "02331eaf91ec696c6a39": "2026-07-17T07:36:45+00:00",
     "c6b12c059c7c87f0f10c": "2026-07-17T07:38:04+00:00",
-    "b158ef61813602190e90": "2026-07-17T16:40:25+00:00"
+    "b158ef61813602190e90": "2026-07-17T16:40:25+00:00",
+    "9be4f1163f3682911a5d": "2026-07-17T21:13:57+00:00"
   },
   "log": [
     {
@@ -106,6 +107,16 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1405.0
+      }
+    },
+    {
+      "at": "2026-07-17T21:13:57+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→BKK</b> return £1472 — 36.8% below normal (median £2330)\nDates: 2026-08-05 → 2026-08-12\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDgtMDVqBRIDTE9OcgUSA0JLSxoaEgoyMDI2LTA4LTEyagUSA0JLS3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-bkk",
+        "trip": "return",
+        "price": 1472.0
       }
     }
   ]
