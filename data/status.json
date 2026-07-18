@@ -1,9 +1,9 @@
 {
-  "started_at": "2026-07-17T21:11:36+00:00",
+  "started_at": "2026-07-18T07:12:25+00:00",
   "modules": {
     "prices": {
       "observations": 42,
-      "alerts": 1,
+      "alerts": 0,
       "errors": 0
     },
     "flyertalk": {
@@ -13,12 +13,12 @@
       "feed_errors": 2
     },
     "feeds": {
-      "new_items": 4,
+      "new_items": 2,
       "alerts": 0,
       "feed_errors": 0
     }
   },
-  "finished_at": "2026-07-17T21:14:47+00:00",
+  "finished_at": "2026-07-18T07:15:43+00:00",
   "google_queries_used": 42,
-  "run_count": 13
+  "run_count": 14
 }
