@@ -15,7 +15,8 @@
     "0db8d315e9547684ed24": "2026-07-20T17:13:43+00:00",
     "8e644da3cb9ffe3e0f77": "2026-07-20T21:54:42+00:00",
     "9e38d7a8c6cc04892bfe": "2026-07-22T09:40:00+00:00",
-    "8336b4a65d8039b9d626": "2026-07-22T17:04:38+00:00"
+    "8336b4a65d8039b9d626": "2026-07-22T17:04:38+00:00",
+    "ade053526b7904c4e4a2": "2026-07-23T17:05:55+00:00"
   },
   "log": [
     {
@@ -201,6 +202,16 @@
           "lon-kul",
           "kul-lon"
         ]
+      }
+    },
+    {
+      "at": "2026-07-23T17:05:55+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→KUL</b> return £1886 — 31.9% below normal (median £2768)\nDates: 2026-08-11 → 2026-09-01\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDgtMTFqBRIDQU1TcgUSA0tVTBoaEgoyMDI2LTA5LTAxagUSA0tVTHIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-kul",
+        "trip": "return",
+        "price": 1886.0
       }
     }
   ]
