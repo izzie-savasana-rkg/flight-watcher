@@ -20,7 +20,8 @@
     "fb4b59e5eaa281281127": "2026-07-26T09:03:06+00:00",
     "268fe714eeaa73c43ebf": "2026-07-25T07:37:15+00:00",
     "91315133a769fc87cd7f": "2026-07-26T15:51:13+00:00",
-    "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00"
+    "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00",
+    "21e7cf76a047e0fba0f8": "2026-07-28T17:17:31+00:00"
   },
   "log": [
     {
@@ -277,6 +278,18 @@
         "feed": "Fly4Free",
         "watches": [
           "fra-sin"
+        ]
+      }
+    },
+    {
+      "at": "2026-07-28T17:17:31+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: 🔥🇸🇬 Cheap full-service flights from London to Singapore from £371\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-singapore-p371/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
         ]
       }
     }
