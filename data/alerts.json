@@ -19,7 +19,8 @@
     "ade053526b7904c4e4a2": "2026-07-26T21:17:18+00:00",
     "fb4b59e5eaa281281127": "2026-07-26T09:03:06+00:00",
     "268fe714eeaa73c43ebf": "2026-07-25T07:37:15+00:00",
-    "91315133a769fc87cd7f": "2026-07-26T15:51:13+00:00"
+    "91315133a769fc87cd7f": "2026-07-26T15:51:13+00:00",
+    "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00"
   },
   "log": [
     {
@@ -266,6 +267,17 @@
         "watch": "ams-kul",
         "trip": "return",
         "price": 1887.0
+      }
+    },
+    {
+      "at": "2026-07-28T10:16:01+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ Full-service flights from Germany to Singapore from €568\nhttps://www.fly4free.com/flight-deals/europe/flights-from-germany-to-singapore-e568/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
       }
     }
   ]
