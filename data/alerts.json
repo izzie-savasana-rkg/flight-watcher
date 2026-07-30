@@ -23,7 +23,8 @@
     "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00",
     "21e7cf76a047e0fba0f8": "2026-07-28T17:17:31+00:00",
     "d759543e97d5ad18f836": "2026-07-29T10:16:45+00:00",
-    "808ccdd7138adf4fa516": "2026-07-29T16:57:39+00:00"
+    "808ccdd7138adf4fa516": "2026-07-29T16:57:39+00:00",
+    "e15ee28874bf036353da": "2026-07-30T09:42:14+00:00"
   },
   "log": [
     {
@@ -314,6 +315,16 @@
         "watches": [
           "lon-dps"
         ]
+      }
+    },
+    {
+      "at": "2026-07-30T09:42:14+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1861 — 37.8% below normal (median £2992)\nDates: 2026-11-04 → 2026-11-11\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTExLTExagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1861.0
       }
     }
   ]
