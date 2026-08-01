@@ -25,7 +25,8 @@
     "d759543e97d5ad18f836": "2026-07-29T10:16:45+00:00",
     "808ccdd7138adf4fa516": "2026-07-29T16:57:39+00:00",
     "e15ee28874bf036353da": "2026-07-30T09:42:14+00:00",
-    "f2e9bb9f7190173eabe1": "2026-07-31T17:16:29+00:00"
+    "f2e9bb9f7190173eabe1": "2026-07-31T17:16:29+00:00",
+    "d614bec97967c22ff037": "2026-08-01T15:46:16+00:00"
   },
   "log": [
     {
@@ -346,6 +347,18 @@
         "feed": "Fly4Free",
         "watches": [
           "ams-kul"
+        ]
+      }
+    },
+    {
+      "at": "2026-08-01T15:46:16+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap direct flights from London to Phuket or Bangkok, Thailand 🇹🇭 from £398\nhttps://www.fly4free.com/flight-deals/europe/cheap-flights-to-bangkok/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
