@@ -28,7 +28,8 @@
     "f2e9bb9f7190173eabe1": "2026-07-31T17:16:29+00:00",
     "d614bec97967c22ff037": "2026-08-01T15:46:16+00:00",
     "f9c77c7b51a115d6ede6": "2026-08-01T21:20:13+00:00",
-    "3a3492e13e02590b05e4": "2026-08-07T01:54:31+00:00"
+    "3a3492e13e02590b05e4": "2026-08-07T01:54:31+00:00",
+    "af8d15c5a6fcffa22faf": "2026-08-07T20:12:58+00:00"
   },
   "log": [
     {
@@ -404,6 +405,19 @@
         "watch": "ams-kul",
         "trip": "return",
         "price": 1815.0
+      }
+    },
+    {
+      "at": "2026-08-07T20:12:58+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HOT! 🔥🔥 Full-service flights from London to Bali, Indonesia 🌴 🥥 for £322\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-bali-p322/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-cgk",
+          "cgk-lon",
+          "lon-dps"
+        ]
       }
     }
   ]
