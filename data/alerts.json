@@ -18,7 +18,7 @@
     "8336b4a65d8039b9d626": "2026-07-22T17:04:38+00:00",
     "ade053526b7904c4e4a2": "2026-07-26T21:17:18+00:00",
     "fb4b59e5eaa281281127": "2026-07-30T21:54:14+00:00",
-    "268fe714eeaa73c43ebf": "2026-07-25T07:37:15+00:00",
+    "268fe714eeaa73c43ebf": "2026-08-07T09:42:22+00:00",
     "91315133a769fc87cd7f": "2026-07-26T15:51:13+00:00",
     "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00",
     "21e7cf76a047e0fba0f8": "2026-07-28T17:17:31+00:00",
@@ -394,6 +394,16 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1739.0
+      }
+    },
+    {
+      "at": "2026-08-07T09:42:22+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→KUL</b> return £1815 — 30.0% below normal (median £2594)\nDates: 2026-11-17 → 2026-11-24\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTdqBRIDQU1TcgUSA0tVTBoaEgoyMDI2LTExLTI0agUSA0tVTHIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-kul",
+        "trip": "return",
+        "price": 1815.0
       }
     }
   ]
