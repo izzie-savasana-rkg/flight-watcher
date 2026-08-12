@@ -33,7 +33,8 @@
     "ac647bd456909f2a90c3": "2026-08-08T08:11:56+00:00",
     "2fc6c5c642e6ef3e3a62": "2026-08-09T14:20:14+00:00",
     "c665f4cb458816450276": "2026-08-09T19:55:05+00:00",
-    "fbf8351c23eccb86010d": "2026-08-12T09:51:14+00:00"
+    "fbf8351c23eccb86010d": "2026-08-12T09:51:14+00:00",
+    "63c210a974a7e888e7bb": "2026-08-12T20:25:11+00:00"
   },
   "log": [
     {
@@ -485,6 +486,16 @@
         "watches": [
           "lon-mnl"
         ]
+      }
+    },
+    {
+      "at": "2026-08-12T20:25:11+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→BKK</b> return £1332 — 34.7% below normal (median £2041)\nDates: 2026-08-29 → 2026-09-12\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDgtMjlqBRIDTE9OcgUSA0JLSxoaEgoyMDI2LTA5LTEyagUSA0JLS3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-bkk",
+        "trip": "return",
+        "price": 1332.0
       }
     }
   ]
