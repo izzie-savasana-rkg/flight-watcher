@@ -1,6 +1,5 @@
 {
   "sent": {
-    "ec8303ec6309c43f9246": "2026-07-13T20:38:08+00:00",
     "edeefe39e067280c3e0e": "2026-07-15T16:56:56+00:00",
     "319f744601ba80ccb39e": "2026-07-16T07:52:27+00:00",
     "8b6608cac4c46acdeaff": "2026-07-16T16:52:15+00:00",
@@ -28,7 +27,7 @@
     "f2e9bb9f7190173eabe1": "2026-07-31T17:16:29+00:00",
     "d614bec97967c22ff037": "2026-08-01T15:46:16+00:00",
     "f9c77c7b51a115d6ede6": "2026-08-01T21:20:13+00:00",
-    "3a3492e13e02590b05e4": "2026-08-09T19:52:43+00:00",
+    "3a3492e13e02590b05e4": "2026-08-13T07:51:10+00:00",
     "af8d15c5a6fcffa22faf": "2026-08-07T20:12:58+00:00",
     "ac647bd456909f2a90c3": "2026-08-08T08:11:56+00:00",
     "2fc6c5c642e6ef3e3a62": "2026-08-09T14:20:14+00:00",
@@ -496,6 +495,16 @@
         "watch": "lon-bkk",
         "trip": "return",
         "price": 1332.0
+      }
+    },
+    {
+      "at": "2026-08-13T07:51:10+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1738 — 35.6% below normal (median £2698)\nDates: 2026-11-18 → 2026-12-02\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMThqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTEyLTAyagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1738.0
       }
     }
   ]
