@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-14T07:47:42+00:00",
+  "started_at": "2026-08-14T13:38:46+00:00",
   "modules": {
     "prices": {
       "observations": 42,
@@ -13,12 +13,12 @@
       "feed_errors": 2
     },
     "feeds": {
-      "new_items": 2,
+      "new_items": 5,
       "alerts": 0,
       "feed_errors": 0
     }
   },
-  "finished_at": "2026-08-14T07:50:54+00:00",
+  "finished_at": "2026-08-14T13:42:07+00:00",
   "google_queries_used": 42,
-  "run_count": 99
+  "run_count": 100
 }
