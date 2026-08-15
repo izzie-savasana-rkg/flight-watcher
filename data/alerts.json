@@ -1,8 +1,5 @@
 {
   "sent": {
-    "319f744601ba80ccb39e": "2026-07-16T07:52:27+00:00",
-    "8b6608cac4c46acdeaff": "2026-07-16T16:52:15+00:00",
-    "64e8fc76190c8ec1d307": "2026-07-16T16:54:51+00:00",
     "5e0e7107415a37e4d7c3": "2026-07-16T21:51:40+00:00",
     "02331eaf91ec696c6a39": "2026-07-17T07:36:45+00:00",
     "c6b12c059c7c87f0f10c": "2026-07-17T07:38:04+00:00",
@@ -34,7 +31,8 @@
     "fbf8351c23eccb86010d": "2026-08-12T09:51:14+00:00",
     "63c210a974a7e888e7bb": "2026-08-12T20:25:11+00:00",
     "77b50ef3da78722abab4": "2026-08-13T13:45:18+00:00",
-    "a89b287991be4d6ff125": "2026-08-15T06:57:56+00:00"
+    "a89b287991be4d6ff125": "2026-08-15T06:57:56+00:00",
+    "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00"
   },
   "log": [
     {
@@ -546,6 +544,17 @@
         "watch": "lon-bkk",
         "trip": "return",
         "price": 1342.0
+      }
+    },
+    {
+      "at": "2026-08-15T18:49:08+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap Singapore Airlines direct flights from Frankfurt to New York 🗽 for €414\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-frankfurt-to-new-york-e414-2/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
       }
     }
   ]
