@@ -29,7 +29,8 @@
     "63c210a974a7e888e7bb": "2026-08-12T20:25:11+00:00",
     "77b50ef3da78722abab4": "2026-08-13T13:45:18+00:00",
     "a89b287991be4d6ff125": "2026-08-16T13:00:47+00:00",
-    "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00"
+    "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00",
+    "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00"
   },
   "log": [
     {
@@ -582,6 +583,18 @@
         "watch": "lon-bkk",
         "trip": "return",
         "price": 1342.0
+      }
+    },
+    {
+      "at": "2026-08-16T18:48:08+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service Hainan Airlines flights from London to Singapore for £451\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-singapore-p451/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
+        ]
       }
     }
   ]
