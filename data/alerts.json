@@ -1,7 +1,6 @@
 {
   "sent": {
     "b158ef61813602190e90": "2026-07-19T07:57:38+00:00",
-    "9be4f1163f3682911a5d": "2026-07-17T21:13:57+00:00",
     "b1f7f707304b98af88a4": "2026-07-19T20:34:53+00:00",
     "895482d80c1e27616b34": "2026-07-19T20:37:27+00:00",
     "0db8d315e9547684ed24": "2026-07-20T17:13:43+00:00",
@@ -30,7 +29,8 @@
     "77b50ef3da78722abab4": "2026-08-13T13:45:18+00:00",
     "a89b287991be4d6ff125": "2026-08-16T13:00:47+00:00",
     "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00",
-    "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00"
+    "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00",
+    "4895a825a6e94f941853": "2026-08-17T07:16:58+00:00"
   },
   "log": [
     {
@@ -589,6 +589,18 @@
       "at": "2026-08-16T18:48:08+00:00",
       "kind": "feed",
       "text": "[public] <b>Fly4Free</b>: Cheap full-service Hainan Airlines flights from London to Singapore for £451\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-singapore-p451/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-08-17T07:16:58+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Non-stop British Airways A380 flights from London to Singapore for £576\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-singapore-p576/",
       "meta": {
         "feed": "Fly4Free",
         "watches": [
