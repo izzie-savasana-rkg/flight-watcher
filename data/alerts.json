@@ -1,7 +1,5 @@
 {
   "sent": {
-    "0db8d315e9547684ed24": "2026-07-20T17:13:43+00:00",
-    "8e644da3cb9ffe3e0f77": "2026-07-20T21:54:42+00:00",
     "9e38d7a8c6cc04892bfe": "2026-07-22T09:40:00+00:00",
     "8336b4a65d8039b9d626": "2026-07-22T17:04:38+00:00",
     "ade053526b7904c4e4a2": "2026-07-26T21:17:18+00:00",
@@ -27,7 +25,9 @@
     "a89b287991be4d6ff125": "2026-08-19T01:53:11+00:00",
     "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00",
     "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00",
-    "4895a825a6e94f941853": "2026-08-17T07:16:58+00:00"
+    "4895a825a6e94f941853": "2026-08-17T07:16:58+00:00",
+    "031b6770b0bfdadd55bd": "2026-08-20T01:51:45+00:00",
+    "266c972ddd5c9c1c11fb": "2026-08-20T01:52:38+00:00"
   },
   "log": [
     {
@@ -634,6 +634,28 @@
         "watch": "lon-bkk",
         "trip": "return",
         "price": 1340.0
+      }
+    },
+    {
+      "at": "2026-08-20T01:51:45+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→BKK</b> return £1384 — 32.2% below normal (median £2040)\nDates: 2026-09-06 → 2026-09-27\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDktMDZqBRIDTE9OcgUSA0JLSxoaEgoyMDI2LTA5LTI3agUSA0JLS3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-bkk",
+        "trip": "return",
+        "price": 1384.0
+      }
+    },
+    {
+      "at": "2026-08-20T01:52:38+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from London to major Thailand’s cities from £352\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-thailand-p352-4/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
       }
     }
   ]
