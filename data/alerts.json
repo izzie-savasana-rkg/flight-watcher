@@ -27,7 +27,8 @@
     "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00",
     "4895a825a6e94f941853": "2026-08-17T07:16:58+00:00",
     "031b6770b0bfdadd55bd": "2026-08-20T01:51:45+00:00",
-    "266c972ddd5c9c1c11fb": "2026-08-20T01:52:38+00:00"
+    "266c972ddd5c9c1c11fb": "2026-08-20T01:52:38+00:00",
+    "34d95449c10437e822f2": "2026-08-20T13:12:00+00:00"
   },
   "log": [
     {
@@ -650,6 +651,18 @@
       "at": "2026-08-20T01:52:38+00:00",
       "kind": "feed",
       "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from London to major Thailand’s cities from £352\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-thailand-p352-4/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-08-20T13:12:00+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from London to Chiang Mai, Thailand for £407\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-chiang-mai/",
       "meta": {
         "feed": "Fly4Free",
         "watches": [
