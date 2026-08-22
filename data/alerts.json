@@ -27,7 +27,8 @@
     "031b6770b0bfdadd55bd": "2026-08-20T01:51:45+00:00",
     "266c972ddd5c9c1c11fb": "2026-08-20T01:52:38+00:00",
     "34d95449c10437e822f2": "2026-08-20T13:12:00+00:00",
-    "7d2d5d939ef8caa5f40f": "2026-08-21T13:09:17+00:00"
+    "7d2d5d939ef8caa5f40f": "2026-08-21T13:09:17+00:00",
+    "b311eb03469d6eb2acdf": "2026-08-22T07:00:27+00:00"
   },
   "log": [
     {
@@ -688,6 +689,17 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1761.0
+      }
+    },
+    {
+      "at": "2026-08-22T07:00:27+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from Amsterdam to Malaysia and the Philippines for €425\nhttps://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-the-philippines-e425/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "ams-kul"
+        ]
       }
     }
   ]
