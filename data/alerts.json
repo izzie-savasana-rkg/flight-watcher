@@ -2,10 +2,6 @@
   "sent": {
     "fb4b59e5eaa281281127": "2026-07-30T21:54:14+00:00",
     "268fe714eeaa73c43ebf": "2026-08-07T09:42:22+00:00",
-    "24e224dc1968e84fd1c4": "2026-07-28T10:16:01+00:00",
-    "21e7cf76a047e0fba0f8": "2026-07-28T17:17:31+00:00",
-    "d759543e97d5ad18f836": "2026-07-29T10:16:45+00:00",
-    "808ccdd7138adf4fa516": "2026-07-29T16:57:39+00:00",
     "e15ee28874bf036353da": "2026-08-16T12:59:15+00:00",
     "f2e9bb9f7190173eabe1": "2026-07-31T17:16:29+00:00",
     "d614bec97967c22ff037": "2026-08-01T15:46:16+00:00",
@@ -29,7 +25,9 @@
     "b311eb03469d6eb2acdf": "2026-08-22T07:00:27+00:00",
     "b26485a497ff70124229": "2026-08-23T07:01:47+00:00",
     "c3b545008a55019fd034": "2026-08-23T13:03:08+00:00",
-    "01865397f33411be56a2": "2026-08-27T09:44:58+00:00"
+    "01865397f33411be56a2": "2026-08-27T09:44:58+00:00",
+    "f2c7f6699a5dc464d654": "2026-08-29T20:56:14+00:00",
+    "1f27f50fbb35267b417f": "2026-08-29T20:56:15+00:00"
   },
   "log": [
     {
@@ -746,6 +744,30 @@
         "watches": [
           "lon-sin",
           "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-08-29T20:56:14+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: GREAT DEAL 💥 Cheap full-service flights from London to exotic Malaysian Borneo 🦧 for £327\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysian-borneo-p327/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-kul",
+          "kul-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-08-29T20:56:15+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap direct flights from London to Phuket & Bangkok, Thailand 🌴 from £419\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-thailand/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
