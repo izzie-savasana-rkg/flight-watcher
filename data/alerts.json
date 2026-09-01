@@ -17,7 +17,7 @@
     "031b6770b0bfdadd55bd": "2026-08-20T01:51:45+00:00",
     "266c972ddd5c9c1c11fb": "2026-08-20T01:52:38+00:00",
     "34d95449c10437e822f2": "2026-08-20T13:12:00+00:00",
-    "7d2d5d939ef8caa5f40f": "2026-08-21T13:09:17+00:00",
+    "7d2d5d939ef8caa5f40f": "2026-09-01T16:37:03+00:00",
     "b311eb03469d6eb2acdf": "2026-08-22T07:00:27+00:00",
     "b26485a497ff70124229": "2026-08-23T07:01:47+00:00",
     "c3b545008a55019fd034": "2026-08-23T13:03:08+00:00",
@@ -787,6 +787,16 @@
         "watches": [
           "ams-kul"
         ]
+      }
+    },
+    {
+      "at": "2026-09-01T16:37:03+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1887 — 30.1% below normal (median £2698)\nDates: 2026-09-16 → 2026-09-30\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMDktMTZqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTA5LTMwagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1887.0
       }
     }
   ]
