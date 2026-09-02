@@ -25,7 +25,8 @@
     "f2c7f6699a5dc464d654": "2026-08-29T20:56:14+00:00",
     "1f27f50fbb35267b417f": "2026-08-29T20:56:15+00:00",
     "6b7aad18444a071b8336": "2026-09-01T11:38:17+00:00",
-    "537f651366f782b80167": "2026-09-02T11:16:45+00:00"
+    "537f651366f782b80167": "2026-09-02T11:16:45+00:00",
+    "1a3ef843972fc6f0dc5c": "2026-09-02T21:03:14+00:00"
   },
   "log": [
     {
@@ -808,6 +809,18 @@
         "feed": "Fly4Free",
         "watches": [
           "lon-mnl"
+        ]
+      }
+    },
+    {
+      "at": "2026-09-02T21:03:14+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: PRICE DROP 💥 Cheap full-service flights from London to major Thailand’s cities from £346\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-thailand-p346/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
