@@ -4,7 +4,6 @@
     "3a3492e13e02590b05e4": "2026-09-01T05:03:49+00:00",
     "77b50ef3da78722abab4": "2026-08-17T13:05:09+00:00",
     "a89b287991be4d6ff125": "2026-08-19T01:53:11+00:00",
-    "ebf03e8ea991db9eb388": "2026-08-15T18:49:08+00:00",
     "8368d22e07054228cbed": "2026-08-16T18:48:08+00:00",
     "4895a825a6e94f941853": "2026-08-17T07:16:58+00:00",
     "031b6770b0bfdadd55bd": "2026-08-20T01:51:45+00:00",
@@ -22,7 +21,8 @@
     "1a3ef843972fc6f0dc5c": "2026-09-02T21:03:14+00:00",
     "c41f74b9f4b324710343": "2026-09-11T20:58:01+00:00",
     "6c10f6372b21308aaa96": "2026-09-11T11:19:18+00:00",
-    "4dd0921e6e252881c70c": "2026-09-14T12:42:35+00:00"
+    "4dd0921e6e252881c70c": "2026-09-14T12:42:35+00:00",
+    "b1e2fb64c69eea8fec67": "2026-09-14T21:49:57+00:00"
   },
   "log": [
     {
@@ -880,6 +880,18 @@
         "watch": "lon-bkk",
         "trip": "return",
         "price": 1437.0
+      }
+    },
+    {
+      "at": "2026-09-14T21:49:57+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ 🌴 Cheap non-stop flights from London to Phuket, Thailand for £426\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-phuket-p426-2/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
       }
     }
   ]
