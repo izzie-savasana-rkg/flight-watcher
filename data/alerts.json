@@ -19,7 +19,8 @@
     "6c10f6372b21308aaa96": "2026-09-11T11:19:18+00:00",
     "4dd0921e6e252881c70c": "2026-09-14T12:42:35+00:00",
     "b1e2fb64c69eea8fec67": "2026-09-14T21:49:57+00:00",
-    "d1674f7b066e5c86a19a": "2026-09-16T21:16:03+00:00"
+    "d1674f7b066e5c86a19a": "2026-09-16T21:16:03+00:00",
+    "549bcdbcabca2e36d54b": "2026-09-17T21:21:47+00:00"
   },
   "log": [
     {
@@ -899,6 +900,17 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1888.0
+      }
+    },
+    {
+      "at": "2026-09-17T21:21:47+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: 💥 Vietnam from London for £338 return — cheap full-service flights to Southeast Asia\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-vietnam-p371-2/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sgn"
+        ]
       }
     }
   ]
