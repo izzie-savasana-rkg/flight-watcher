@@ -15,7 +15,8 @@
     "d1674f7b066e5c86a19a": "2026-09-16T21:16:03+00:00",
     "549bcdbcabca2e36d54b": "2026-09-17T21:21:47+00:00",
     "f684f9a71828104dbdaa": "2026-09-20T11:21:07+00:00",
-    "3d51786f54bc10e6f5f0": "2026-09-23T11:31:51+00:00"
+    "3d51786f54bc10e6f5f0": "2026-09-23T11:31:51+00:00",
+    "9634b9fd914c5c33fbef": "2026-09-23T16:56:46+00:00"
   },
   "log": [
     {
@@ -928,6 +929,17 @@
         "watch": "fra-kul",
         "trip": "return",
         "price": 1612.0
+      }
+    },
+    {
+      "at": "2026-09-23T16:56:46+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Discover Philippines off the beaten path! 🌴🐠 Manila, Romblon and Sibuyan islands in one trip from London for £396\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-manila-romblon-sibuyan/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-mnl"
+        ]
       }
     }
   ]
