@@ -16,7 +16,7 @@
     "549bcdbcabca2e36d54b": "2026-09-17T21:21:47+00:00",
     "f684f9a71828104dbdaa": "2026-09-20T11:21:07+00:00",
     "3d51786f54bc10e6f5f0": "2026-09-23T11:31:51+00:00",
-    "9634b9fd914c5c33fbef": "2026-09-23T16:56:46+00:00",
+    "9634b9fd914c5c33fbef": "2026-09-26T04:56:00+00:00",
     "0dbff7ccc5080dd68b63": "2026-09-25T11:49:36+00:00"
   },
   "log": [
@@ -947,6 +947,17 @@
       "at": "2026-09-25T11:49:36+00:00",
       "kind": "feed",
       "text": "[public] <b>Fly4Free</b>: HIGH SEASON 🌴 🥥 Winter escape to the Philippines: cheap full-service flights from London for £369\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-the-philippines-p369/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-mnl"
+        ]
+      }
+    },
+    {
+      "at": "2026-09-26T04:56:00+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Discover Philippines off the beaten path! 🌴🐠 Manila, Romblon and Sibuyan islands in one trip from London for £396\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-manila-romblon-sibuyan/",
       "meta": {
         "feed": "Fly4Free",
         "watches": [
