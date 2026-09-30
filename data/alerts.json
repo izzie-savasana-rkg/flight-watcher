@@ -16,7 +16,8 @@
     "9634b9fd914c5c33fbef": "2026-09-26T04:56:00+00:00",
     "0dbff7ccc5080dd68b63": "2026-09-25T11:49:36+00:00",
     "8756d4fa48ca64555211": "2026-09-26T16:22:50+00:00",
-    "4efbf9b097996a09823e": "2026-09-29T22:15:11+00:00"
+    "4efbf9b097996a09823e": "2026-09-29T22:15:11+00:00",
+    "8413f7728edb907fe65d": "2026-09-30T12:32:36+00:00"
   },
   "log": [
     {
@@ -987,6 +988,18 @@
         "watches": [
           "lon-sin",
           "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-09-30T12:32:36+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ 🌴 Cheap non-stop flights from London to Phuket, Thailand for £396\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-phuket-p396/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
