@@ -13,7 +13,8 @@
     "8756d4fa48ca64555211": "2026-09-26T16:22:50+00:00",
     "4efbf9b097996a09823e": "2026-09-29T22:15:11+00:00",
     "8413f7728edb907fe65d": "2026-09-30T12:32:36+00:00",
-    "07ed2e290a4527cb3c52": "2026-10-05T14:30:35+00:00"
+    "07ed2e290a4527cb3c52": "2026-10-06T22:38:30+00:00",
+    "55861aa363871e26f9e1": "2026-10-06T22:41:00+00:00"
   },
   "log": [
     {
@@ -1017,6 +1018,27 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1966.0
+      }
+    },
+    {
+      "at": "2026-10-06T22:38:30+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1966 — 32.0% below normal (median £2891)\nDates: 2026-10-21 → 2026-11-11\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTAtMjFqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTExLTExagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1966.0
+      }
+    },
+    {
+      "at": "2026-10-06T22:41:00+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Full-service flights from Germany to Malaysia from €518\nhttps://www.fly4free.com/flight-deals/europe/flights-from-germany-to-malaysia-e518/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-kul"
+        ]
       }
     }
   ]
