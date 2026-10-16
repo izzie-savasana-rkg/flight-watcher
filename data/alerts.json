@@ -13,7 +13,8 @@
     "55861aa363871e26f9e1": "2026-10-06T22:41:00+00:00",
     "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
-    "b9e61a0c3a8e4ae925e2": "2026-10-15T11:22:54+00:00"
+    "b9e61a0c3a8e4ae925e2": "2026-10-15T11:22:54+00:00",
+    "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00"
   },
   "log": [
     {
@@ -1094,6 +1095,17 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1331.0
+      }
+    },
+    {
+      "at": "2026-10-16T16:37:38+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Your next trip to Asia deserves business-class tickets 🤩 Flights to Kuala Lumpur, Malaysia from Frankfurt and Milan from €1129\nhttps://www.fly4free.com/flight-deals/europe/business-class-flights-from-germany-italy-to-kuala-lumpur/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-kul"
+        ]
       }
     }
   ]
