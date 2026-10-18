@@ -4283,6 +4283,13 @@
       "price": 2031.0,
       "currency": "GBP",
       "observed_at": "2026-10-18T10:59:27+00:00"
+    },
+    {
+      "depart": "2027-01-28",
+      "return": null,
+      "price": 2031.0,
+      "currency": "GBP",
+      "observed_at": "2026-10-18T15:49:32+00:00"
     }
   ]
 }
