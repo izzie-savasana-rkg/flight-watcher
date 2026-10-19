@@ -1,6 +1,5 @@
 {
   "sent": {
-    "549bcdbcabca2e36d54b": "2026-09-17T21:21:47+00:00",
     "f684f9a71828104dbdaa": "2026-09-20T11:21:07+00:00",
     "3d51786f54bc10e6f5f0": "2026-09-23T11:31:51+00:00",
     "9634b9fd914c5c33fbef": "2026-09-26T04:56:00+00:00",
@@ -15,7 +14,8 @@
     "b9e61a0c3a8e4ae925e2": "2026-10-17T04:20:51+00:00",
     "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00",
     "41a20aa9f41f638f40dd": "2026-10-17T10:37:42+00:00",
-    "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00"
+    "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00",
+    "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00"
   },
   "log": [
     {
@@ -1138,6 +1138,18 @@
         "watches": [
           "lon-sin",
           "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-10-19T13:07:32+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: 🌴 Thailand Calling! ✈️ Fly from London to major Thai cities from £366\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-thailand-p366/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
