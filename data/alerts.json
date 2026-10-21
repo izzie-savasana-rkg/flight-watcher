@@ -16,7 +16,8 @@
     "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00",
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
-    "610e2349f0b5cb7e0ebc": "2026-10-20T21:37:06+00:00"
+    "610e2349f0b5cb7e0ebc": "2026-10-20T21:37:06+00:00",
+    "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00"
   },
   "log": [
     {
@@ -1184,6 +1185,16 @@
           "lon-kul",
           "kul-lon"
         ]
+      }
+    },
+    {
+      "at": "2026-10-21T04:41:46+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→SIN</b> return £1829 — 30.9% below normal (median £2648)\nDates: 2026-11-10 → 2026-11-17\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTBqBRIDQU1TcgUSA1NJThoaEgoyMDI2LTExLTE3agUSA1NJTnIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-sin",
+        "trip": "return",
+        "price": 1829.0
       }
     }
   ]
