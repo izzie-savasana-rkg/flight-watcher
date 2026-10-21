@@ -4437,6 +4437,20 @@
       "price": 2147.0,
       "currency": "GBP",
       "observed_at": "2026-10-21T17:08:26+00:00"
+    },
+    {
+      "depart": "2026-11-09",
+      "return": null,
+      "price": 2981.0,
+      "currency": "GBP",
+      "observed_at": "2026-10-21T21:38:33+00:00"
+    },
+    {
+      "depart": "2027-01-29",
+      "return": null,
+      "price": 2029.0,
+      "currency": "GBP",
+      "observed_at": "2026-10-21T21:38:39+00:00"
     }
   ]
 }

@@ -17,7 +17,8 @@
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
     "610e2349f0b5cb7e0ebc": "2026-10-20T21:37:06+00:00",
-    "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00"
+    "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00",
+    "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00"
   },
   "log": [
     {
@@ -1195,6 +1196,18 @@
         "watch": "ams-sin",
         "trip": "return",
         "price": 1829.0
+      }
+    },
+    {
+      "at": "2026-10-21T21:40:52+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: 🌎 Pacific dream trip from London — Los Angeles, Hawaii, Tokyo & Bangkok in one adventure from £883\nhttps://www.fly4free.com/flight-deals/europe/usa-hawaii-japan-thailand-from-london/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
       }
     }
   ]
