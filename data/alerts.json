@@ -12,7 +12,7 @@
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
     "b9e61a0c3a8e4ae925e2": "2026-10-20T21:34:48+00:00",
     "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00",
-    "41a20aa9f41f638f40dd": "2026-10-17T10:37:42+00:00",
+    "41a20aa9f41f638f40dd": "2026-10-23T04:44:19+00:00",
     "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00",
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
@@ -1243,6 +1243,16 @@
           "lon-kul",
           "kul-lon"
         ]
+      }
+    },
+    {
+      "at": "2026-10-23T04:44:19+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> return £1765 — 39.4% below normal (median £2914)\nDates: 2026-11-11 → 2026-12-02\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTFqBRIDTE9OcgUSA1NJThoaEgoyMDI2LTEyLTAyagUSA1NJTnIFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "return",
+        "price": 1765.0
       }
     }
   ]
