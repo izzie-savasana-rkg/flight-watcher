@@ -1,6 +1,5 @@
 {
   "sent": {
-    "3d51786f54bc10e6f5f0": "2026-09-23T11:31:51+00:00",
     "9634b9fd914c5c33fbef": "2026-09-26T04:56:00+00:00",
     "0dbff7ccc5080dd68b63": "2026-09-25T11:49:36+00:00",
     "8756d4fa48ca64555211": "2026-09-26T16:22:50+00:00",
@@ -20,7 +19,8 @@
     "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00",
     "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00",
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
-    "17808e0711470ffd9b57": "2026-10-22T17:09:17+00:00"
+    "17808e0711470ffd9b57": "2026-10-22T17:09:17+00:00",
+    "dff136c19862b5fe05c8": "2026-10-23T11:35:49+00:00"
   },
   "log": [
     {
@@ -1253,6 +1253,20 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1765.0
+      }
+    },
+    {
+      "at": "2026-10-23T11:35:49+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service Hainan Airlines flights from London to Malaysia & Indonesia from £367\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysia-indonesia-p367/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-kul",
+          "kul-lon",
+          "lon-cgk",
+          "cgk-lon"
+        ]
       }
     }
   ]
