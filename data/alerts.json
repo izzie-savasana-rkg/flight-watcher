@@ -19,8 +19,9 @@
     "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00",
     "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00",
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
-    "17808e0711470ffd9b57": "2026-10-22T17:09:17+00:00",
-    "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00"
+    "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
+    "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
+    "e06f63b34f6770f40726": "2026-10-25T04:37:45+00:00"
   },
   "log": [
     {
@@ -1280,6 +1281,27 @@
           "kul-lon",
           "lon-cgk",
           "cgk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-10-25T04:37:45+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→DPS</b> return £2037 — 44.7% below normal (median £3683)\nDates: 2026-11-12 → 2026-11-26\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTJqBRIDTE9OcgUSA0RQUxoaEgoyMDI2LTExLTI2agUSA0RQU3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-dps",
+        "trip": "return",
+        "price": 2037.0
+      }
+    },
+    {
+      "at": "2026-10-25T04:38:06+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from London to Philippines 🏝️ for £376\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-the-philippines-p376/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-mnl"
         ]
       }
     }
