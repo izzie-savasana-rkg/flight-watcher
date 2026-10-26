@@ -1,6 +1,5 @@
 {
   "sent": {
-    "9634b9fd914c5c33fbef": "2026-09-26T04:56:00+00:00",
     "8756d4fa48ca64555211": "2026-09-26T16:22:50+00:00",
     "4efbf9b097996a09823e": "2026-09-29T22:15:11+00:00",
     "8413f7728edb907fe65d": "2026-09-30T12:32:36+00:00",
@@ -20,7 +19,8 @@
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
     "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
-    "e06f63b34f6770f40726": "2026-10-25T04:37:45+00:00"
+    "e06f63b34f6770f40726": "2026-10-25T04:37:45+00:00",
+    "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00"
   },
   "log": [
     {
@@ -1322,6 +1322,17 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1330.0
+      }
+    },
+    {
+      "at": "2026-10-26T12:56:40+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ Full-service flights from Frankfurt & Milan to Singapore from €538\nhttps://www.fly4free.com/flight-deals/europe/flights-from-germany-to-singapore-e538/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
       }
     }
   ]
