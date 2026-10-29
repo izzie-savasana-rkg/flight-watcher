@@ -6,7 +6,7 @@
     "55861aa363871e26f9e1": "2026-10-06T22:41:00+00:00",
     "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
-    "b9e61a0c3a8e4ae925e2": "2026-10-25T16:11:33+00:00",
+    "b9e61a0c3a8e4ae925e2": "2026-10-29T05:42:26+00:00",
     "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00",
     "41a20aa9f41f638f40dd": "2026-10-28T05:34:59+00:00",
     "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00",
@@ -18,7 +18,7 @@
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
     "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
-    "e06f63b34f6770f40726": "2026-10-25T04:37:45+00:00",
+    "e06f63b34f6770f40726": "2026-10-29T05:44:15+00:00",
     "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00"
   },
   "log": [
@@ -1342,6 +1342,26 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1765.0
+      }
+    },
+    {
+      "at": "2026-10-29T05:42:26+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> oneway £1330 — 34.5% below normal (median £2031)\nDates: 2027-02-05\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDItMDVqBRIDTE9OcgUSA1NJTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "oneway",
+        "price": 1330.0
+      }
+    },
+    {
+      "at": "2026-10-29T05:44:15+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→DPS</b> return £2037 — 43.8% below normal (median £3623)\nDates: 2026-11-13 → 2026-12-04\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTNqBRIDTE9OcgUSA0RQUxoaEgoyMDI2LTEyLTA0agUSA0RQU3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-dps",
+        "trip": "return",
+        "price": 2037.0
       }
     }
   ]
