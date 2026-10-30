@@ -17,7 +17,8 @@
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
     "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
     "e06f63b34f6770f40726": "2026-10-29T05:44:15+00:00",
-    "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00"
+    "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00",
+    "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00"
   },
   "log": [
     {
@@ -1370,6 +1371,18 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1330.0
+      }
+    },
+    {
+      "at": "2026-10-30T22:17:57+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap flights from London to Bangkok, Thailand 🌴 from £367\nhttps://www.fly4free.com/flight-deals/europe/cheap-flights-from-london-to-thailand-2/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
       }
     }
   ]
