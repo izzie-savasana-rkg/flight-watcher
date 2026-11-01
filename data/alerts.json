@@ -18,7 +18,10 @@
     "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
     "e06f63b34f6770f40726": "2026-10-29T05:44:15+00:00",
     "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00",
-    "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00"
+    "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00",
+    "88713826692a8f930255": "2026-11-01T13:18:01+00:00",
+    "921bf5e11ceafc55cbda": "2026-11-01T13:18:02+00:00",
+    "c745a8834025359e359d": "2026-11-01T13:18:02+00:00"
   },
   "log": [
     {
@@ -1393,6 +1396,42 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1330.0
+      }
+    },
+    {
+      "at": "2026-11-01T13:18:01+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: PRICE DROP 💥 Cheap direct flights from London to Bangkok, Thailand for £430\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-bangkok-p-430/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T13:18:02+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Full-service 2-in-1 flights from Frankfurt to Singapore & Oman for €559\nhttps://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-singapore-and-oman/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T13:18:02+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from London to Bali, Indonesia 🌴 🥥 for £442\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-bali-p442/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-cgk",
+          "cgk-lon",
+          "lon-dps"
+        ]
       }
     }
   ]
