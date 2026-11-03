@@ -21,7 +21,8 @@
     "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00",
     "88713826692a8f930255": "2026-11-03T00:57:58+00:00",
     "921bf5e11ceafc55cbda": "2026-11-01T13:18:02+00:00",
-    "c745a8834025359e359d": "2026-11-01T13:18:02+00:00"
+    "c745a8834025359e359d": "2026-11-01T13:18:02+00:00",
+    "0517ecefefe30a1cb83d": "2026-11-03T14:07:49+00:00"
   },
   "log": [
     {
@@ -1448,6 +1449,18 @@
       "at": "2026-11-03T00:57:58+00:00",
       "kind": "feed",
       "text": "[public] <b>Fly4Free</b>: PRICE DROP 💥 Cheap direct flights from London to Bangkok, Thailand for £430\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-bangkok-p-430/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-03T14:07:49+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Incredible prices!💥 Cheap direct flights from London to Bangkok, Thailand for £333\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-bangkok-p333/",
       "meta": {
         "feed": "Fly4Free",
         "watches": [
