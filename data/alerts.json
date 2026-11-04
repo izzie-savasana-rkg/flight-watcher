@@ -11,7 +11,7 @@
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
     "610e2349f0b5cb7e0ebc": "2026-10-22T17:09:18+00:00",
-    "15888ef9c948d00f8640": "2026-10-21T04:41:46+00:00",
+    "15888ef9c948d00f8640": "2026-11-04T14:27:48+00:00",
     "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00",
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
@@ -22,7 +22,8 @@
     "88713826692a8f930255": "2026-11-03T00:57:58+00:00",
     "921bf5e11ceafc55cbda": "2026-11-01T13:18:02+00:00",
     "c745a8834025359e359d": "2026-11-01T13:18:02+00:00",
-    "0517ecefefe30a1cb83d": "2026-11-03T14:07:49+00:00"
+    "0517ecefefe30a1cb83d": "2026-11-03T14:07:49+00:00",
+    "1759f0f9a833cd05f900": "2026-11-04T14:29:06+00:00"
   },
   "log": [
     {
@@ -1477,6 +1478,27 @@
         "watch": "lon-dps",
         "trip": "return",
         "price": 2036.0
+      }
+    },
+    {
+      "at": "2026-11-04T14:27:48+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→SIN</b> return £1819 — 31.1% below normal (median £2639)\nDates: 2026-11-24 → 2026-12-08\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjRqBRIDQU1TcgUSA1NJThoaEgoyMDI2LTEyLTA4agUSA1NJTnIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-sin",
+        "trip": "return",
+        "price": 1819.0
+      }
+    },
+    {
+      "at": "2026-11-04T14:29:06+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Full-service direct Vietnam Airlines flights from London to Hanoi or Ho Chi Minh from £574\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-vietnam-p574/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sgn"
+        ]
       }
     }
   ]
