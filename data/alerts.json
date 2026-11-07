@@ -1,7 +1,6 @@
 {
   "sent": {
     "07ed2e290a4527cb3c52": "2026-10-10T05:47:06+00:00",
-    "55861aa363871e26f9e1": "2026-10-06T22:41:00+00:00",
     "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
     "b9e61a0c3a8e4ae925e2": "2026-11-05T19:54:23+00:00",
@@ -24,7 +23,8 @@
     "c745a8834025359e359d": "2026-11-01T13:18:02+00:00",
     "0517ecefefe30a1cb83d": "2026-11-03T14:07:49+00:00",
     "1759f0f9a833cd05f900": "2026-11-04T14:29:06+00:00",
-    "6f421b7aa292adb63e14": "2026-11-05T19:56:40+00:00"
+    "6f421b7aa292adb63e14": "2026-11-05T19:56:40+00:00",
+    "9ca6059e06501607eb0d": "2026-11-07T05:56:01+00:00"
   },
   "log": [
     {
@@ -1530,6 +1530,18 @@
         "watch": "lon-sgn",
         "trip": "return",
         "price": 2014.0
+      }
+    },
+    {
+      "at": "2026-11-07T05:56:01+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Asian classics in high season from Copenhagen 🌴 Singapore + Kuala Lumpur + Krabi — all flights for €612 total with Etihad and SAS\nhttps://www.fly4free.com/flight-deals/europe/flights-from-copenhagen-to-krabi-singapore-kl/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "cph-kul",
+          "cph-sin"
+        ]
       }
     }
   ]
