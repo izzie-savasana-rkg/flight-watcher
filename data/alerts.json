@@ -3,7 +3,7 @@
     "07ed2e290a4527cb3c52": "2026-10-10T05:47:06+00:00",
     "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
-    "b9e61a0c3a8e4ae925e2": "2026-11-07T12:55:12+00:00",
+    "b9e61a0c3a8e4ae925e2": "2026-11-08T13:17:36+00:00",
     "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00",
     "41a20aa9f41f638f40dd": "2026-11-02T15:41:53+00:00",
     "935a5dd13945fb8e9ab2": "2026-10-17T10:40:23+00:00",
@@ -1546,6 +1546,16 @@
     },
     {
       "at": "2026-11-07T12:55:12+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> oneway £1329 — 34.5% below normal (median £2030)\nDates: 2027-02-17\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDItMTdqBRIDTE9OcgUSA1NJTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "oneway",
+        "price": 1329.0
+      }
+    },
+    {
+      "at": "2026-11-08T13:17:36+00:00",
       "kind": "anomaly",
       "text": "<b>LON→SIN</b> oneway £1329 — 34.5% below normal (median £2030)\nDates: 2027-02-17\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDItMTdqBRIDTE9OcgUSA1NJTkIBAUgDmAEC&hl=&curr=GBP",
       "meta": {
