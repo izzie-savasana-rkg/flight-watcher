@@ -1,6 +1,5 @@
 {
   "sent": {
-    "07ed2e290a4527cb3c52": "2026-10-10T05:47:06+00:00",
     "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
     "b9e61a0c3a8e4ae925e2": "2026-11-08T13:17:36+00:00",
@@ -10,7 +9,7 @@
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
     "610e2349f0b5cb7e0ebc": "2026-10-22T17:09:18+00:00",
-    "15888ef9c948d00f8640": "2026-11-04T14:27:48+00:00",
+    "15888ef9c948d00f8640": "2026-11-09T06:18:16+00:00",
     "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00",
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
@@ -24,7 +23,8 @@
     "0517ecefefe30a1cb83d": "2026-11-03T14:07:49+00:00",
     "1759f0f9a833cd05f900": "2026-11-04T14:29:06+00:00",
     "6f421b7aa292adb63e14": "2026-11-05T19:56:40+00:00",
-    "9ca6059e06501607eb0d": "2026-11-07T05:56:01+00:00"
+    "9ca6059e06501607eb0d": "2026-11-07T05:56:01+00:00",
+    "0b588b532b8490deef2e": "2026-11-09T06:19:23+00:00"
   },
   "log": [
     {
@@ -1572,6 +1572,26 @@
         "watch": "lon-sin",
         "trip": "return",
         "price": 1764.0
+      }
+    },
+    {
+      "at": "2026-11-09T06:18:16+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→SIN</b> return £1829 — 30.2% below normal (median £2622)\nDates: 2026-11-24 → 2026-12-01\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjRqBRIDQU1TcgUSA1NJThoaEgoyMDI2LTEyLTAxagUSA1NJTnIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-sin",
+        "trip": "return",
+        "price": 1829.0
+      }
+    },
+    {
+      "at": "2026-11-09T06:19:23+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→DPS</b> return £2070 — 41.6% below normal (median £3544)\nDates: 2026-11-28 → 2026-12-08\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjhqBRIDTE9OcgUSA0RQUxoaEgoyMDI2LTEyLTA4agUSA0RQU3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-dps",
+        "trip": "return",
+        "price": 2070.0
       }
     }
   ]
