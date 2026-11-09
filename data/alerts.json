@@ -24,7 +24,9 @@
     "1759f0f9a833cd05f900": "2026-11-04T14:29:06+00:00",
     "6f421b7aa292adb63e14": "2026-11-05T19:56:40+00:00",
     "9ca6059e06501607eb0d": "2026-11-07T05:56:01+00:00",
-    "0b588b532b8490deef2e": "2026-11-09T06:19:23+00:00"
+    "0b588b532b8490deef2e": "2026-11-09T06:19:23+00:00",
+    "ebd63aa58a90644f0fdc": "2026-11-09T16:25:59+00:00",
+    "95f157972850acaf74d7": "2026-11-09T16:26:37+00:00"
   },
   "log": [
     {
@@ -1592,6 +1594,28 @@
         "watch": "lon-dps",
         "trip": "return",
         "price": 2070.0
+      }
+    },
+    {
+      "at": "2026-11-09T16:25:59+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→CGK</b> return £1980 — 30.5% below normal (median £2849)\nDates: 2026-11-26 → 2026-12-03\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjZqBRIDTE9OcgUSA0NHSxoaEgoyMDI2LTEyLTAzagUSA0NHS3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-cgk",
+        "trip": "return",
+        "price": 1980.0
+      }
+    },
+    {
+      "at": "2026-11-09T16:26:37+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap non-stop flights from Manchester & London to Bangkok, Thailand for £412\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-the-uk-to-bangkok-p412/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
+        ]
       }
     }
   ]
