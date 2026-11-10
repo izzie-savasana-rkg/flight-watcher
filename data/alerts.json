@@ -9,7 +9,7 @@
     "0e32095e3cf97cc367c6": "2026-10-19T13:07:32+00:00",
     "d1674f7b066e5c86a19a": "2026-10-20T21:34:38+00:00",
     "610e2349f0b5cb7e0ebc": "2026-10-22T17:09:18+00:00",
-    "15888ef9c948d00f8640": "2026-11-09T06:18:16+00:00",
+    "15888ef9c948d00f8640": "2026-11-10T14:49:27+00:00",
     "73112f34420aa7c83941": "2026-10-21T21:40:52+00:00",
     "41c4705ea9ec656992c6": "2026-10-22T04:39:11+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
@@ -27,7 +27,9 @@
     "0b588b532b8490deef2e": "2026-11-09T06:19:23+00:00",
     "ebd63aa58a90644f0fdc": "2026-11-09T16:25:59+00:00",
     "95f157972850acaf74d7": "2026-11-09T16:26:37+00:00",
-    "8459016eee465593f7eb": "2026-11-10T01:32:07+00:00"
+    "8459016eee465593f7eb": "2026-11-10T01:32:07+00:00",
+    "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
+    "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00"
   },
   "log": [
     {
@@ -1627,6 +1629,38 @@
         "feed": "Fly4Free",
         "watches": [
           "lon-mnl"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-10T14:49:27+00:00",
+      "kind": "anomaly",
+      "text": "<b>AMS→SIN</b> return £1823 — 30.4% below normal (median £2619)\nDates: 2026-11-24 → 2026-12-15\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjRqBRIDQU1TcgUSA1NJThoaEgoyMDI2LTEyLTE1agUSA1NJTnIFEgNBTVNCAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "ams-sin",
+        "trip": "return",
+        "price": 1823.0
+      }
+    },
+    {
+      "at": "2026-11-10T14:50:14+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→CGK</b> return £1952 — 31.5% below normal (median £2848)\nDates: 2026-11-26 → 2026-12-10\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjZqBRIDTE9OcgUSA0NHSxoaEgoyMDI2LTEyLTEwagUSA0NHS3IFEgNMT05CAQFIA5gBAQ==&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-cgk",
+        "trip": "return",
+        "price": 1952.0
+      }
+    },
+    {
+      "at": "2026-11-10T14:50:47+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap non-stop flights from London to Phuket, Thailand 🌴 for £458\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-london-to-phuket-p458/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
