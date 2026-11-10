@@ -26,7 +26,8 @@
     "9ca6059e06501607eb0d": "2026-11-07T05:56:01+00:00",
     "0b588b532b8490deef2e": "2026-11-09T06:19:23+00:00",
     "ebd63aa58a90644f0fdc": "2026-11-09T16:25:59+00:00",
-    "95f157972850acaf74d7": "2026-11-09T16:26:37+00:00"
+    "95f157972850acaf74d7": "2026-11-09T16:26:37+00:00",
+    "8459016eee465593f7eb": "2026-11-10T01:32:07+00:00"
   },
   "log": [
     {
@@ -1615,6 +1616,17 @@
         "watches": [
           "lon-bkk",
           "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-10T01:32:07+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: PEAK SEASON 🌊 🌴 Cheap full-service flights from London to Philippines 🏝️ for £425\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-the-philippines-p425/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-mnl"
         ]
       }
     }
