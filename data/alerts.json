@@ -1,6 +1,5 @@
 {
   "sent": {
-    "b353c552c776151fc1d7": "2026-10-11T21:57:06+00:00",
     "ddef956102a700f5fcf6": "2026-10-14T21:40:54+00:00",
     "b9e61a0c3a8e4ae925e2": "2026-11-08T13:17:36+00:00",
     "09f413d521fbd579505d": "2026-10-16T16:37:38+00:00",
@@ -29,7 +28,8 @@
     "95f157972850acaf74d7": "2026-11-09T16:26:37+00:00",
     "8459016eee465593f7eb": "2026-11-10T01:32:07+00:00",
     "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
-    "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00"
+    "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00",
+    "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00"
   },
   "log": [
     {
@@ -1661,6 +1661,18 @@
         "watches": [
           "lon-bkk",
           "bkk-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-11T14:14:57+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Good deal! 😎 ✌️ Full-service Qantas direct flights from London to Singapore for £599\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-london-to-singapore-p599/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
         ]
       }
     }
