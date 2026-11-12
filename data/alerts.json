@@ -29,7 +29,9 @@
     "8459016eee465593f7eb": "2026-11-10T01:32:07+00:00",
     "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
     "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00",
-    "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00"
+    "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00",
+    "f798543441210b2bf688": "2026-11-12T00:37:29+00:00",
+    "41bc62bdf489022d2971": "2026-11-12T00:40:08+00:00"
   },
   "log": [
     {
@@ -1668,6 +1670,28 @@
       "at": "2026-11-11T14:14:57+00:00",
       "kind": "feed",
       "text": "[public] <b>Fly4Free</b>: Good deal! 😎 ✌️ Full-service Qantas direct flights from London to Singapore for £599\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-london-to-singapore-p599/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-sin",
+          "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-12T00:37:29+00:00",
+      "kind": "anomaly",
+      "text": "<b>KUL→LON</b> oneway £967 — 30.9% below normal (median £1399)\nDates: 2027-02-23\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDItMjNqBRIDS1VMcgUSA0xPTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "kul-lon",
+        "trip": "oneway",
+        "price": 967.0
+      }
+    },
+    {
+      "at": "2026-11-12T00:40:08+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: GREAT DEAL 🤩 Cheap full-service flights from London to Brunei for £453\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-brunei-p453/",
       "meta": {
         "feed": "Fly4Free",
         "watches": [
