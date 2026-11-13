@@ -32,7 +32,22 @@
     "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00",
     "f798543441210b2bf688": "2026-11-12T00:37:29+00:00",
     "41bc62bdf489022d2971": "2026-11-12T00:40:08+00:00",
-    "a8c9aa869855a5d8cb21": "2026-11-12T23:36:35+00:00"
+    "a8c9aa869855a5d8cb21": "2026-11-12T23:36:35+00:00",
+    "4b0c7522278ed6066fc3": "2026-11-13T06:37:55+00:00",
+    "7492be542d7304e3d023": "2026-11-13T06:37:57+00:00",
+    "6c9247b9b74980d6d3e6": "2026-11-13T06:37:58+00:00",
+    "bdde3a9a64c6545ed1fc": "2026-11-13T06:38:00+00:00",
+    "50d86def84f42323a5f4": "2026-11-13T06:38:02+00:00",
+    "75e2db9b6c97d574ca4e": "2026-11-13T06:38:03+00:00",
+    "65b03daa46bd5be2e7be": "2026-11-13T06:38:05+00:00",
+    "db003231fcaf94797453": "2026-11-13T06:38:06+00:00",
+    "c06c124461017609ffa8": "2026-11-13T06:38:08+00:00",
+    "687df388fee842d9f2ac": "2026-11-13T06:38:10+00:00",
+    "b09515c2207c98e6402c": "2026-11-13T06:38:12+00:00",
+    "74f4a3eec0acbf9a6da2": "2026-11-13T06:38:13+00:00",
+    "51f1c77c6193ae0c23ce": "2026-11-13T06:38:15+00:00",
+    "95b2fa1e74e2d1a1256e": "2026-11-13T06:38:17+00:00",
+    "cdcfcee77ce8ce8cc5f7": "2026-11-13T06:38:18+00:00"
   },
   "log": [
     {
@@ -1730,6 +1745,156 @@
         "watches": [
           "ams-kul"
         ]
+      }
+    },
+    {
+      "at": "2026-11-13T06:37:55+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · Europe-SIN, MCT-SIN\nOman Air flash sale offering up to 50% discount on flights to Singapore from Europe and Muscat, valid for 24 hours only.\nhttps://www.flyertalk.com/forum/mileage-run-deals/2226214-oman-air-sale-sin.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/mileage-run-deals/2226214-oman-air-sale-sin.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:37:57+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · LAX-Tokyo\nAlaska Airlines round-trip fare from Los Angeles to Tokyo for approximately $223 booked through an online travel agency.\nhttps://www.flyertalk.com/forum/mileage-run-deals/2225829-round-trip-lax-tokyo-223-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/mileage-run-deals/2225829-round-trip-lax-tokyo-223-a.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:37:58+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · YYC-LHR\nBusiness class fares from Calgary to London starting at C$3,276 CAD return on BA and AA for March-August 2027.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225960-yyc-lhr-business-class-c-3-276-return-ba-club-suite-march-august-2027-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225960-yyc-lhr-business-class-c-3-276-return-ba-club-suite-march-august-2027-a.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:00+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · ICN-IST\nAsiana Airlines nonstop business class from Seoul to Istanbul available for $1782, with a cheaper €1530 option through Korean OTAs.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225686-asiana-airlines-business-class-icnoist-nonstop-1-782-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225686-asiana-airlines-business-class-icnoist-nonstop-1-782-a.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:02+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · NYC-BOM\nQatar Airways Q-Suites (business class) round-trip from New York to Mumbai advertised at $2553 on American Airlines.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225628-qatar-nyc-mumbai-q-suites-2553-rt-aa.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225628-qatar-nyc-mumbai-q-suites-2553-rt-aa.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:03+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · DUB-BWI\nBritish Airways business class fares from Dublin to Baltimore around £1130 for late November travel, available through Google Flights.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225527-dub-ba-1130-biz.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225527-dub-ba-1130-biz.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:05+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · BKK-FRA, BKK-AMS\nAir India is offering business class fares from Bangkok to Frankfurt and Amsterdam from €1305, routed via Delhi with A320 and 787 aircraft.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225355-air-india-business-class-bkk-fra-c1305.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225355-air-india-business-class-bkk-fra-c1305.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:06+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · LGW-PER, LGW-SYD\nChina Southern offers lie-flat first-class fares from London Gatwick to Perth and Sydney starting from £2414, available on online travel agencies.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225345-china-southern-lgw-perth-sydney-2414-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225345-china-southern-lgw-perth-sydney-2414-a.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:08+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · MNL-YYZ\nSaudia Arabia Airlines business class round-trip from Manila to Toronto at approximately USD 2400 on Boeing 787 reverse herringbone aircraft.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225318-sv-mnl-yyz-i-usd-2400-r-t.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225318-sv-mnl-yyz-i-usd-2400-r-t.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:10+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · LHR-MAD\nBritish Airways offering economy fares from London Heathrow to Madrid on Boeing 787-10 aircraft with lie-flat premium seats from £317, available December through March.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225170-ba-lhr-mad-787-10-privacy-doors-317-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225170-ba-lhr-mad-787-10-privacy-doors-317-a.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:12+00:00",
+      "kind": "flyertalk",
+      "text": "⭐ <b>FlyerTalk · sale</b> · LHR-MLE\nSriLankan Airlines is selling round-trip business class fares from London to Male for £1100–£1200 for October–November travel.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225160-ul-lhr-mle-rt-biz-1100-1200-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225160-ul-lhr-mle-rt-biz-1100-1200-a.html",
+        "starred": true,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:13+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · MAD-SYD\nChina Southern business class round-trip from Madrid to Sydney at €2,705 with connections in Guangzhou, limited availability in November and February-March.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225100-madosyd-china-southern-business-class-c2-705-rt.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225100-madosyd-china-southern-business-class-c2-705-rt.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:15+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · CNX-JNB, KBV-JNB, NBO-JNB\nEthiopian Airlines one-way fares from Chiang Mai or Kabul to Johannesburg at $1292, with availability spanning late October through February, and Nairobi available at the same price with recliner seating.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225090-ey-cnx-kbv-jnb-ow-1292-a.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225090-ey-cnx-kbv-jnb-ow-1292-a.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:17+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · CAI-BUE, BUE-CAI\nAmerican Airlines business class round-trip fares from Cairo to Buenos Aires priced around $2500, available as refundable or non-refundable tickets via AA/BA/IB metal.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2225019-cai-bue-cai-us-2500-i-class-aa-ticket-aa-ba-ib-metal.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2225019-cai-bue-cai-us-2500-i-class-aa-ticket-aa-ba-ib-metal.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-13T06:38:18+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · EWR-AUA\nUnited Airlines offering first class fares from Newark to Aruba for approximately $880, with availability across multiple dates in January and February.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2224998-ua-ewr-aua-f-880-usd.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2224998-ua-ewr-aua-f-880-usd.html",
+        "starred": false,
+        "deal_type": "sale"
       }
     }
   ]
