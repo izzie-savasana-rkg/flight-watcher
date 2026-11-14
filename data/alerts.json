@@ -46,7 +46,8 @@
     "74f4a3eec0acbf9a6da2": "2026-11-13T06:38:13+00:00",
     "51f1c77c6193ae0c23ce": "2026-11-13T06:38:15+00:00",
     "95b2fa1e74e2d1a1256e": "2026-11-13T06:38:17+00:00",
-    "cdcfcee77ce8ce8cc5f7": "2026-11-13T06:38:18+00:00"
+    "cdcfcee77ce8ce8cc5f7": "2026-11-13T06:38:18+00:00",
+    "390507308a1a33039988": "2026-11-14T22:21:32+00:00"
   },
   "log": [
     {
@@ -1904,6 +1905,17 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1331.0
+      }
+    },
+    {
+      "at": "2026-11-14T22:21:32+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Singapore Airlines direct flights from Frankfurt to New York 🗽 for €486\nhttps://www.fly4free.com/flight-deals/europe/singapore-airlines-flights-from-frankfurt-to-new-york-e486/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
       }
     }
   ]
