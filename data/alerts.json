@@ -29,9 +29,9 @@
     "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
     "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00",
     "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00",
-    "f798543441210b2bf688": "2026-11-12T00:37:29+00:00",
+    "f798543441210b2bf688": "2026-11-15T06:21:22+00:00",
     "41bc62bdf489022d2971": "2026-11-12T00:40:08+00:00",
-    "a8c9aa869855a5d8cb21": "2026-11-12T23:36:35+00:00",
+    "a8c9aa869855a5d8cb21": "2026-11-15T06:24:00+00:00",
     "4b0c7522278ed6066fc3": "2026-11-13T06:37:55+00:00",
     "7492be542d7304e3d023": "2026-11-13T06:37:57+00:00",
     "6c9247b9b74980d6d3e6": "2026-11-13T06:37:58+00:00",
@@ -1915,6 +1915,27 @@
         "feed": "Fly4Free",
         "watches": [
           "fra-sin"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-15T06:21:22+00:00",
+      "kind": "anomaly",
+      "text": "<b>KUL→LON</b> oneway £969 — 30.7% below normal (median £1398)\nDates: 2027-02-23\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDItMjNqBRIDS1VMcgUSA0xPTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "kul-lon",
+        "trip": "oneway",
+        "price": 969.0
+      }
+    },
+    {
+      "at": "2026-11-15T06:24:00+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from Amsterdam to Malaysia for €493\nhttps://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-kuala-lumpur-e493/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "ams-kul"
         ]
       }
     }
