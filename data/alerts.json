@@ -27,7 +27,7 @@
     "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
     "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00",
     "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00",
-    "f798543441210b2bf688": "2026-11-15T06:21:22+00:00",
+    "f798543441210b2bf688": "2026-11-17T07:49:54+00:00",
     "41bc62bdf489022d2971": "2026-11-12T00:40:08+00:00",
     "a8c9aa869855a5d8cb21": "2026-11-15T06:24:00+00:00",
     "4b0c7522278ed6066fc3": "2026-11-13T06:37:55+00:00",
@@ -1947,6 +1947,16 @@
         "watches": [
           "lon-sgn"
         ]
+      }
+    },
+    {
+      "at": "2026-11-17T07:49:54+00:00",
+      "kind": "anomaly",
+      "text": "<b>KUL→LON</b> oneway £971 — 30.5% below normal (median £1398)\nDates: 2026-12-01\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDS1VMcgUSA0xPTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "kul-lon",
+        "trip": "oneway",
+        "price": 971.0
       }
     }
   ]
