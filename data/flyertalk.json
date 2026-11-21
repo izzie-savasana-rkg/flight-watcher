@@ -704,6 +704,29 @@
         "decoder": "claude"
       },
       "starred": false
+    },
+    "https://www.flyertalk.com/forum/premium-fare-deals/2226554-lgw-bkk-1200-turkmenistan.html": {
+      "forum": "Premium Fare Deals",
+      "title": "LGW - BKK £1200 Turkmenistan",
+      "link": "https://www.flyertalk.com/forum/premium-fare-deals/2226554-lgw-bkk-1200-turkmenistan.html",
+      "posted_at": "2026-11-17T22:01:07+00:00",
+      "decoded": {
+        "is_deal": true,
+        "deal_type": "sale",
+        "routes": [
+          "LGW-BKK"
+        ],
+        "regions": [
+          "Europe",
+          "SEA"
+        ],
+        "cabin": null,
+        "approx_price": "£1200",
+        "urgency": "unknown",
+        "summary": "Turkmenistan Airlines offering flights from London Gatwick to Bangkok for approximately £1200.",
+        "decoder": "claude"
+      },
+      "starred": true
     }
   }
 }

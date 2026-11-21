@@ -1,24 +1,24 @@
 {
-  "started_at": "2026-11-21T06:58:58+00:00",
+  "started_at": "2026-11-21T19:09:08+00:00",
   "modules": {
     "prices": {
-      "observations": 2,
-      "alerts": 0,
+      "observations": 17,
+      "alerts": 1,
       "errors": 0
     },
     "flyertalk": {
-      "new_threads": 0,
-      "decoded": 0,
-      "alerts": 0,
-      "feed_errors": 2
+      "new_threads": 1,
+      "decoded": 1,
+      "alerts": 1,
+      "feed_errors": 0
     },
     "feeds": {
-      "new_items": 3,
-      "alerts": 0,
+      "new_items": 13,
+      "alerts": 1,
       "feed_errors": 0
     }
   },
-  "finished_at": "2026-11-21T07:02:02+00:00",
+  "finished_at": "2026-11-21T19:12:21+00:00",
   "google_queries_used": 42,
-  "run_count": 431
+  "run_count": 432
 }
