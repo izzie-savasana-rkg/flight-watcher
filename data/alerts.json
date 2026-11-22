@@ -45,7 +45,8 @@
     "98195be9eea909badf5e": "2026-11-16T22:00:50+00:00",
     "506e3490303fcd73acec": "2026-11-21T19:12:19+00:00",
     "f22c75bdf159a69b2cde": "2026-11-21T19:12:21+00:00",
-    "2e356ec26abf73db30e3": "2026-11-22T06:42:27+00:00"
+    "2e356ec26abf73db30e3": "2026-11-22T06:42:27+00:00",
+    "bf1de5a29d55bf6ff774": "2026-11-22T19:32:09+00:00"
   },
   "log": [
     {
@@ -2020,6 +2021,16 @@
           "lon-bkk",
           "bkk-lon"
         ]
+      }
+    },
+    {
+      "at": "2026-11-22T19:32:09+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> oneway £1341 — 32.8% below normal (median £1996)\nDates: 2027-03-01\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDMtMDFqBRIDTE9OcgUSA1NJTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "oneway",
+        "price": 1341.0
       }
     }
   ]
