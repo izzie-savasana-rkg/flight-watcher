@@ -44,7 +44,8 @@
     "390507308a1a33039988": "2026-11-14T22:21:32+00:00",
     "98195be9eea909badf5e": "2026-11-16T22:00:50+00:00",
     "506e3490303fcd73acec": "2026-11-21T19:12:19+00:00",
-    "f22c75bdf159a69b2cde": "2026-11-21T19:12:21+00:00"
+    "f22c75bdf159a69b2cde": "2026-11-21T19:12:21+00:00",
+    "2e356ec26abf73db30e3": "2026-11-22T06:42:27+00:00"
   },
   "log": [
     {
@@ -2006,6 +2007,18 @@
         "watches": [
           "lon-sin",
           "sin-lon"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-22T06:42:27+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: BEST SEASON 🌴 🥥 Cheap non-stop flights from Manchester & London to Bangkok, Thailand from £416\nhttps://www.fly4free.com/flight-deals/europe/direct-flights-from-the-uk-to-bangkok-p416/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-bkk",
+          "bkk-lon"
         ]
       }
     }
