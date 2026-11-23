@@ -5,7 +5,6 @@
     "d1674f7b066e5c86a19a": "2026-11-20T20:07:29+00:00",
     "15888ef9c948d00f8640": "2026-11-10T14:49:27+00:00",
     "17808e0711470ffd9b57": "2026-10-25T04:38:06+00:00",
-    "dff136c19862b5fe05c8": "2026-10-24T20:47:01+00:00",
     "e06f63b34f6770f40726": "2026-11-05T19:56:28+00:00",
     "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00",
     "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00",
@@ -23,7 +22,7 @@
     "2f4b8ec883f8210df8ee": "2026-11-10T14:50:14+00:00",
     "77e05c3f0c74cea6380b": "2026-11-10T14:50:47+00:00",
     "68251ffd80aa2ed89756": "2026-11-11T14:14:57+00:00",
-    "f798543441210b2bf688": "2026-11-17T07:49:54+00:00",
+    "f798543441210b2bf688": "2026-11-23T23:49:19+00:00",
     "41bc62bdf489022d2971": "2026-11-12T00:40:08+00:00",
     "a8c9aa869855a5d8cb21": "2026-11-15T06:24:00+00:00",
     "4b0c7522278ed6066fc3": "2026-11-13T06:37:55+00:00",
@@ -46,7 +45,9 @@
     "506e3490303fcd73acec": "2026-11-21T19:12:19+00:00",
     "f22c75bdf159a69b2cde": "2026-11-21T19:12:21+00:00",
     "2e356ec26abf73db30e3": "2026-11-22T06:42:27+00:00",
-    "bf1de5a29d55bf6ff774": "2026-11-22T19:32:09+00:00"
+    "bf1de5a29d55bf6ff774": "2026-11-22T19:32:09+00:00",
+    "8027f82eb79c93969493": "2026-11-23T23:51:53+00:00",
+    "9f6296dee5d7cded2ebe": "2026-11-23T23:51:54+00:00"
   },
   "log": [
     {
@@ -2031,6 +2032,39 @@
         "watch": "lon-sin",
         "trip": "oneway",
         "price": 1341.0
+      }
+    },
+    {
+      "at": "2026-11-23T23:49:19+00:00",
+      "kind": "anomaly",
+      "text": "<b>KUL→LON</b> oneway £978 — 30.0% below normal (median £1398)\nDates: 2027-03-02\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDMtMDJqBRIDS1VMcgUSA0xPTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "kul-lon",
+        "trip": "oneway",
+        "price": 978.0
+      }
+    },
+    {
+      "at": "2026-11-23T23:51:53+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ Full-service 2-in-1 flights from Frankfurt to Singapore & Oman for €577\nhttps://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-singapore-oman-e577/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "fra-sin"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-23T23:51:54+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: BEST SEASON ☀️ Cheap full-service flights from London to exotic Malaysian Borneo 🦧 for £486\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysian-borneo-p486/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-kul",
+          "kul-lon"
+        ]
       }
     }
   ]
