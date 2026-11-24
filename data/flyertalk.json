@@ -727,6 +727,29 @@
         "decoder": "claude"
       },
       "starred": true
+    },
+    "https://www.flyertalk.com/forum/premium-fare-deals/2226816-gf-mnl-ath-o-w-1050-a.html": {
+      "forum": "Premium Fare Deals",
+      "title": "Gf: Mnl-ath o/w $1050",
+      "link": "https://www.flyertalk.com/forum/premium-fare-deals/2226816-gf-mnl-ath-o-w-1050-a.html",
+      "posted_at": "2026-11-24T13:25:32+00:00",
+      "decoded": {
+        "is_deal": true,
+        "deal_type": "sale",
+        "routes": [
+          "MNL-ATH"
+        ],
+        "regions": [
+          "Southeast Asia",
+          "Europe"
+        ],
+        "cabin": "economy",
+        "approx_price": "$1050",
+        "urgency": "unknown",
+        "summary": "One-way economy fare from Manila to Athens for approximately $1050 on Google Flights.",
+        "decoder": "claude"
+      },
+      "starred": true
     }
   }
 }
