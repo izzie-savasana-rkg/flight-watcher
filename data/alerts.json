@@ -1,11 +1,10 @@
 {
   "sent": {
-    "b9e61a0c3a8e4ae925e2": "2026-11-21T19:10:03+00:00",
+    "b9e61a0c3a8e4ae925e2": "2026-11-25T21:38:13+00:00",
     "41a20aa9f41f638f40dd": "2026-11-08T21:59:34+00:00",
     "d1674f7b066e5c86a19a": "2026-11-20T20:07:29+00:00",
     "15888ef9c948d00f8640": "2026-11-10T14:49:27+00:00",
     "e06f63b34f6770f40726": "2026-11-05T19:56:28+00:00",
-    "e4831e4c230cac2f5b24": "2026-10-26T12:56:40+00:00",
     "098e9ec41f8d38d20da4": "2026-10-30T22:17:57+00:00",
     "88713826692a8f930255": "2026-11-03T00:57:58+00:00",
     "921bf5e11ceafc55cbda": "2026-11-01T13:18:02+00:00",
@@ -47,7 +46,8 @@
     "bf1de5a29d55bf6ff774": "2026-11-22T19:32:09+00:00",
     "8027f82eb79c93969493": "2026-11-23T23:51:53+00:00",
     "9f6296dee5d7cded2ebe": "2026-11-23T23:51:54+00:00",
-    "072c0e68c6fd894d84fd": "2026-11-24T22:24:23+00:00"
+    "072c0e68c6fd894d84fd": "2026-11-24T22:24:23+00:00",
+    "3e562417134580af0d22": "2026-11-25T21:40:36+00:00"
   },
   "log": [
     {
@@ -2075,6 +2075,28 @@
         "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2226816-gf-mnl-ath-o-w-1050-a.html",
         "starred": true,
         "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-25T21:38:13+00:00",
+      "kind": "anomaly",
+      "text": "<b>LON→SIN</b> oneway £1332 — 33.2% below normal (median £1995)\nDates: 2027-03-08\nhttps://www.google.com/travel/flights/search?tfs=GhoSCjIwMjctMDMtMDhqBRIDTE9OcgUSA1NJTkIBAUgDmAEC&hl=&curr=GBP",
+      "meta": {
+        "watch": "lon-sin",
+        "trip": "oneway",
+        "price": 1332.0
+      }
+    },
+    {
+      "at": "2026-11-25T21:40:36+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: HIGH SEASON ☀️ Cheap full-service flights from London to Kuala Lumpur, Malaysia for £383\nhttps://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysia-p385/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-kul",
+          "kul-lon"
+        ]
       }
     }
   ]
