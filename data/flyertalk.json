@@ -750,6 +750,30 @@
         "decoder": "claude"
       },
       "starred": true
+    },
+    "https://www.flyertalk.com/forum/premium-fare-deals/2226870-etihad-business-class-parisocolombo-c1-432-return-over-christmas-2026-a350-suit.html": {
+      "forum": "Premium Fare Deals",
+      "title": "Etihad Business Class Paris–Colombo from €1,432 RETURN over Christmas 2026 (A350 suit",
+      "link": "https://www.flyertalk.com/forum/premium-fare-deals/2226870-etihad-business-class-parisocolombo-c1-432-return-over-christmas-2026-a350-suit.html",
+      "posted_at": "2026-11-25T16:29:17+00:00",
+      "decoded": {
+        "is_deal": true,
+        "deal_type": "sale",
+        "routes": [
+          "CDG-CMB"
+        ],
+        "regions": [
+          "Europe",
+          "Middle East",
+          "South Asia"
+        ],
+        "cabin": "J",
+        "approx_price": "€1,432 return",
+        "urgency": "unknown",
+        "summary": "Etihad business class (A350 suites) from Paris to Colombo over Christmas 2026 from €1,432 return, limited availability.",
+        "decoder": "claude"
+      },
+      "starred": false
     }
   }
 }

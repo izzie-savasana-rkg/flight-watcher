@@ -47,7 +47,9 @@
     "8027f82eb79c93969493": "2026-11-23T23:51:53+00:00",
     "9f6296dee5d7cded2ebe": "2026-11-23T23:51:54+00:00",
     "072c0e68c6fd894d84fd": "2026-11-24T22:24:23+00:00",
-    "3e562417134580af0d22": "2026-11-25T21:40:36+00:00"
+    "3e562417134580af0d22": "2026-11-25T21:40:36+00:00",
+    "957c57ee4bf72ad4ca7e": "2026-11-26T08:11:51+00:00",
+    "be103c03f45075bc54b4": "2026-11-26T08:11:58+00:00"
   },
   "log": [
     {
@@ -2098,6 +2100,22 @@
           "kul-lon"
         ]
       }
+    },
+    {
+      "at": "2026-11-26T08:11:51+00:00",
+      "kind": "flyertalk",
+      "text": "<b>FlyerTalk · sale</b> · CDG-CMB\nEtihad business class (A350 suites) from Paris to Colombo over Christmas 2026 from €1,432 return, limited availability.\nhttps://www.flyertalk.com/forum/premium-fare-deals/2226870-etihad-business-class-parisocolombo-c1-432-return-over-christmas-2026-a350-suit.html",
+      "meta": {
+        "thread": "https://www.flyertalk.com/forum/premium-fare-deals/2226870-etihad-business-class-parisocolombo-c1-432-return-over-christmas-2026-a350-suit.html",
+        "starred": false,
+        "deal_type": "sale"
+      }
+    },
+    {
+      "at": "2026-11-26T08:11:58+00:00",
+      "kind": "health",
+      "text": "Scanner unhealthy: a full run produced zero successful Google Flights queries. fast-flights may be broken or blocked.",
+      "meta": {}
     }
   ]
 }
