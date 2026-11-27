@@ -50,7 +50,8 @@
     "3e562417134580af0d22": "2026-11-25T21:40:36+00:00",
     "957c57ee4bf72ad4ca7e": "2026-11-26T08:11:51+00:00",
     "be103c03f45075bc54b4": "2026-11-26T08:11:58+00:00",
-    "e5b1e9e430c5d879097f": "2026-11-26T21:29:26+00:00"
+    "e5b1e9e430c5d879097f": "2026-11-26T21:29:26+00:00",
+    "d26097d4017d29857889": "2026-11-27T08:22:45+00:00"
   },
   "log": [
     {
@@ -2126,6 +2127,19 @@
         "feed": "Fly4Free",
         "watches": [
           "lon-mnl"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-27T08:22:45+00:00",
+      "kind": "feed",
+      "text": "[public] <b>Fly4Free</b>: Cheap full-service flights from Frankfurt & London to Bali, Indonesia 🌸 for €505\nhttps://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-london-to-bali-e505/",
+      "meta": {
+        "feed": "Fly4Free",
+        "watches": [
+          "lon-cgk",
+          "cgk-lon",
+          "lon-dps"
         ]
       }
     }
