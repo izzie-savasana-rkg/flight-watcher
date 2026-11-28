@@ -49,7 +49,7 @@
     "072c0e68c6fd894d84fd": "2026-11-24T22:24:23+00:00",
     "3e562417134580af0d22": "2026-11-25T21:40:36+00:00",
     "957c57ee4bf72ad4ca7e": "2026-11-26T08:11:51+00:00",
-    "be103c03f45075bc54b4": "2026-11-26T08:11:58+00:00",
+    "be103c03f45075bc54b4": "2026-11-28T07:44:07+00:00",
     "e5b1e9e430c5d879097f": "2026-11-26T21:29:26+00:00",
     "d26097d4017d29857889": "2026-11-27T08:22:45+00:00"
   },
@@ -2142,6 +2142,12 @@
           "lon-dps"
         ]
       }
+    },
+    {
+      "at": "2026-11-28T07:44:07+00:00",
+      "kind": "health",
+      "text": "Scanner unhealthy: a full run produced zero successful Google Flights queries. fast-flights may be broken or blocked.",
+      "meta": {}
     }
   ]
 }
